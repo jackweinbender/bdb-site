@@ -17,7 +17,7 @@ class Page(models.Model):
         return f"/page/{self.number}"
     
     def __str__(self):
-        return f"{self.number} - {self.headword}"
+        return f"{self.number}"
 
 class Root(models.Model):
     root = models.CharField(max_length=256)

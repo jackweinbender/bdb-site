@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Jastrow | Dictionary of the Targumim</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="/static/dictionary/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Dictionary of Targumim</h1>
+            <h2>Talmud and Midrashic Literature</h2>
+        </header>
+        <div class="wrapper">
+            <div class="nav">
+                {% block letters %}
+                <ul class="letters">
+                    {% for letter in hebrew %}
+                    <li class="letter{% if letter.id == current_page.letter_id.id %} active-letter{% endif %}"
+                        onclick=selectLetter(this)>{{letter.char}}
+                        <ul class="pages">
+                            {% for root in letter.root_set.all %}
+                            <li class="page"><a href="{% url 'page' root.page_id %}">
+                                {{root.root}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endblock letters %}
+            </div>
+            {% block page %}
+            <div class="page-view">
+                <div class="page-nav">
+                    {% if prev_page %}    
+                    <a class="prev"
+                        href="{% url 'page' prev_page.number %}">«&nbsp;Prev</a>
+                    {% else %}
+                    <a class="prev disabled"
+                        href="#">«&nbsp;Prev</a>
+                    {% endif %}    
+                    {% if next_page %} 
+                    <a class="next"
+                        href="{% url 'page' next_page.number %}">Next&nbsp;»</a>
+                    {% else %}
+                    <a class="next disabled"
+                        href="#">Next&nbsp;»</a>    
+                    {% endif %}
+                </div>
+                <div class="page-img">
+                    <img src="{{page_url}}" alt="BDB Page {{page.number}}">
+                </div>
+            </div>
+            {% endblock page %}
+        </div>
+        <script src="/static/dictionary/scripts.js"></script>
+    </body>
+</html>
