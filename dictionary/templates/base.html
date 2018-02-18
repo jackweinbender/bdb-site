@@ -27,7 +27,7 @@
                         onclick=selectLetter(this)>{{letter.char}}
                         <ul class="roots">
                             {% for root in letter.root_set.all %}
-                            <li class="root{% if root.id == active_root.id %} active-root{% endif %}"><a dir=rtl href="{% url 'page' root.page_id %}?root={{root.id}}">
+                            <li class="root{% if root.id == active_root.id %} active-root{% endif %}"><a class="root-link" dir=rtl href="{% url 'page' root.page_id %}?root={{root.id}}">
                                 {{root.root}}{% if root.homophone != '' %}&ensp;<span dir=ltr class="homophone">{{root.homophone}}&ensp;–</span>{% endif %}</a></li>
                             {% endfor %}
                         </ul>
