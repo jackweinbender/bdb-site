@@ -15,20 +15,20 @@
     </head>
     <body>
         <header class="header">
-            <h1>Dictionary of Targumim</h1>
-            <h2>Talmud and Midrashic Literature</h2>
+            <h1>Brown–Driver–Briggs</h1>
+            <h2>A Hebrew and English Lexicon of the Old Testament</h2>
         </header>
         <div class="wrapper">
             <div class="nav">
                 {% block letters %}
                 <ul class="letters">
                     {% for letter in hebrew %}
-                    <li class="letter{% if letter.id == current_page.letter_id.id %} active-letter{% endif %}"
+                    <li class="letter{% if letter.id == active_root.letter_id %} active-letter{% endif %}"
                         onclick=selectLetter(this)>{{letter.char}}
-                        <ul class="pages">
+                        <ul class="roots">
                             {% for root in letter.root_set.all %}
-                            <li class="page"><a href="{% url 'page' root.page_id %}">
-                                {{root.root}}</a></li>
+                            <li class="root{% if root.id == active_root.id %} active-root{% endif %}"><a dir=rtl href="{% url 'page' root.page_id %}?root={{root.id}}">
+                                {{root.root}}{% if root.homophone != '' %}&ensp;<span dir=ltr class="homophone">{{root.homophone}}&ensp;–</span>{% endif %}</a></li>
                             {% endfor %}
                         </ul>
                     </li>

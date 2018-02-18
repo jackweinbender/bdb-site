@@ -21,5 +21,6 @@ class Page(models.Model):
 
 class Root(models.Model):
     root = models.CharField(max_length=256)
-    page_id = models.ForeignKey(Page, on_delete=models.CASCADE)
-    letter_id = models.ForeignKey(Letter, on_delete=models.CASCADE)
+    homophone = models.CharField(max_length=256, blank=True, default='')
+    page = models.ForeignKey(Page, on_delete=models.CASCADE)
+    letter = models.ForeignKey(Letter, on_delete=models.CASCADE)

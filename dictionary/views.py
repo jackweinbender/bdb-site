@@ -18,6 +18,7 @@ class IndexView(BuildableListView):
 class PageView(BuildableDetailView):
     model = Page
     template_name = 'base.html'
+    
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -31,6 +32,11 @@ class PageView(BuildableDetailView):
         context['next_page'] = get_next_page(page.id)
         context['prev_page'] = get_prev_page(page.id)
         context['img_url'] = IMAGE_URL_PATH + file_name
+        
+        if self.request.GET.get('root'):
+            context['active_root'] = Root.objects.get(pk=self.request.GET.get('root'))
+        else:
+            context['active_root'] = Root.objects.filter(page=page.id).first()
         
         return context
 

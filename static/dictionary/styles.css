@@ -22,7 +22,7 @@ h3 {float:right; display:inline-block;}
   width: 100%;
   z-index: 999;
 }
-.wrapper, .nav, .letters, .pages, .page-image { height: 100%; }
+.wrapper, .nav, .letters, .roots, .page-image { height: 100%; }
 .wrapper {
   position: relative;
   display: flex;
@@ -34,16 +34,16 @@ h3 {float:right; display:inline-block;}
   width:13rem;
   position:relative;
 }
-.letters, .pages, .page-image { overflow-y:auto; }
+.letters, .roots, .page-image { overflow-y:auto; }
 .letters { width:3rem; }
-.pages {
+.roots {
   position: absolute;
     top:0;
     left:3rem;
   width:10rem;
 }
-.pages{ display:none; }
-.active-letter > .pages { display:block; }
+.roots { display:none; }
+.active-letter > .roots { display:block; }
 .page-img img { 
   width: 100%;
   min-width: 40rem;
@@ -57,12 +57,12 @@ h1, h2, h3 {
   padding-bottom: 0.5rem;
 }
 h2, h3 {font-style: italic;}
-.letters, .pages {
+.letters, .roots {
     font-family: 'SBL Hebrew', 'Times New Roman', Serif;
     font-size: 1.5rem;
     font-weight: 100;
 }
-.pages a {
+.roots a {
     color:black;
     text-decoration: none;
 }
@@ -73,12 +73,12 @@ h2, h3 {font-style: italic;}
 /* Style */
 .header { 
   padding: 0.5rem 1rem;;
-  background-color: rgb(25, 50, 60);
+  background-color: rgb(50, 10, 10);
   border-bottom: solid 1px rgb(50, 50, 50);
   border-right: solid 1px rgb(50, 50, 50);
 }
 .wrapper {border-right:solid 1px rgb(125, 125, 125);}
-.nav{
+.nav {
   background-color: rgb(245, 245, 245);
   border-right:solid 1px rgb(125, 125, 125); 
 }
@@ -94,13 +94,24 @@ h2, h3 {font-style: italic;}
 }
 .letter:hover { background-color: rgb(110, 175, 130) }
 .active-letter, .active-letter:hover { background-color: rgb(255, 170, 100) }
-.pages { 
+.roots { 
   text-align: right;
 } 
-.page {padding:0.15rem 0.75rem;}
-.page a {display:block;}
-.page:hover   { background-color: rgb( 100, 150, 175 ) }
-.active-page { background-color: rgb( 150, 100, 175 ) }
+.root {padding:0.15rem 0.75rem;}
+.root a {
+  display: flex;
+  align-items: center;
+}
+.root:hover   { background-color: rgb( 100, 150, 175 ) }
+.active-root { background-color: rgb( 150, 100, 175 ) }
+
+.homophone {
+  /* padding: 0 1rem; */
+  color: rgb(100, 100, 100);
+  font-size: 1rem;
+  direction: ltr;
+}
+
 .page-view {
   position:relative;
   flex: auto;
