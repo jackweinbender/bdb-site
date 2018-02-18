@@ -11,7 +11,7 @@ class IndexView(BuildableListView):
         
         context['hebrew'] = Letter.objects.filter(language='hebrew')
         # context['aramaic'] = Letter.objects.filter(language='aramaic')
-        context['img_url'] = IMAGE_URL_PATH + "000_title.png"
+        context['img_url'] = IMAGE_URL_PATH + "0_original.png"
 
         return context
 
