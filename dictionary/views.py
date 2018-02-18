@@ -23,7 +23,7 @@ class PageView(BuildableDetailView):
         context = super().get_context_data(**kwargs)
         
         page = kwargs['object']
-        file_name = "%03d_original.png" % (page.number,)
+        file_name = f"{page.number}_original.png"
         
         context['hebrew'] = Letter.objects.filter(language='hebrew')
         context['aramaic'] = Letter.objects.filter(language='aramaic')
