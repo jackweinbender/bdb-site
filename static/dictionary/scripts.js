@@ -74,6 +74,7 @@ function swapPageImage(page) {
         .forEach(function(img){ img.src = new_src })
 }
 function setActive(page, root_num){
+    console.log(page, root_num)
     var root_id
     if(root_num){
         root_id = 'root_' + root_num
@@ -87,8 +88,8 @@ function setActive(page, root_num){
 
 function get_first_root_by_page(page){
     page = parseInt(page, 10)
-    if (page <= 1) {
-        return 'root_1'
+    if (page < 1) {
+        return document.querySelector('.root[data-page="1"]')
     }
     selector = ".root[data-page='" + page + "']"
     root = document.querySelector(selector)
