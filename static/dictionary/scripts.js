@@ -1,10 +1,14 @@
 window.onload = function(e){
-    var url_params = location.href.split('page/')[1].split('/?root=')
+    var url_params = location.href.split('page/')
     if (url_params.length > 1){
-        var page = url_params[0].replace('/', '')
-        var root = url_params[1]
+        url_params = url_params[1].split('/?root=')
 
-        goto_page(page, rosot)
+        if (url_params.length > 1){
+            var page = url_params[0].replace('/', '')
+            var root = url_params[1]
+
+            goto_page(page, root)
+        }
     }
 }
 
@@ -14,10 +18,8 @@ document.onclick = function (e) {
 
     if (element.classList.contains('root-link')) {
         var url_params = element.href.split('page/')[1].split('/?root=')
-        console.log(url_params)
         var page = url_params[0]
         var root = url_params[1]
-        console.log("Goto Page: ", page, " at Root: ", root)
         goto_page(page, root)
         return false;
     }
@@ -71,15 +73,29 @@ function swapPageImage(page) {
     var img = document.querySelectorAll('.page-img img')
         .forEach(function(img){ img.src = new_src })
 }
-function setActive(page, root){
-    if(!root){
-        selector = ".root[data-page='" + page + "']"
-        root = document.querySelector(selector).id
+function setActive(page, root_num){
+    var root_id
+    if(root_num){
+        root_id = 'root_' + root_num
+    } else {
+        root_id = get_first_root_by_page(page).id
     }
-    root = document.getElementById("root_" + root)
-    letter = root.closest('.letter')
-    selectRoot(root.id)
+    letter = document.getElementById(root_id).closest('.letter')
+    selectRoot(root_id)
     selectLetter(letter)
+}
+
+function get_first_root_by_page(page){
+    page = parseInt(page, 10)
+    if (page <= 1) {
+        return 'root_1'
+    }
+    selector = ".root[data-page='" + page + "']"
+    root = document.querySelector(selector)
+    if (!root) {
+        root = get_first_root_by_page(page - 1)
+    }
+    return root
 }
 
 function selectLetter(elem) {
