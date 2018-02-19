@@ -48,7 +48,7 @@ function setNext(page){
 function setPrev(page){
     var new_prev;
     if(page === '1'){ 
-        new_prev = page
+        new_prev = 1118
     } else {
         new_prev = parseInt(page, 10) - 1
     }

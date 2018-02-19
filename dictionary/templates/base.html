@@ -42,15 +42,13 @@
                     <a class="prev"
                         href="{% url 'page' prev_page.number %}">«&nbsp;Prev</a>
                     {% else %}
-                    <a class="prev disabled"
-                        href="#">«&nbsp;Prev</a>
+                    <a class="prev" href="/page/1118/">«&nbsp;Prev</a>
                     {% endif %}    
                     {% if next_page %} 
                     <a class="next"
                         href="{% url 'page' next_page.number %}">Next&nbsp;»</a>
                     {% else %}
-                    <a class="next disabled"
-                        href="#">Next&nbsp;»</a>    
+                    <a class="next" href="/page/1/">Next&nbsp;»</a>    
                     {% endif %}
                 </div>
                 <div class="page-img">
