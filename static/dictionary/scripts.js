@@ -1,10 +1,10 @@
 window.onload = function(e){
     var url_params = location.href.split('page/')[1].split('/?root=')
     if (url_params.length > 1){
-        var page = url_params[0]
+        var page = url_params[0].replace('/', '')
         var root = url_params[1]
 
-        selectRoot(root)
+        goto_page(page, rosot)
     }
 }
 
@@ -14,11 +14,11 @@ document.onclick = function (e) {
 
     if (element.classList.contains('root-link')) {
         var url_params = element.href.split('page/')[1].split('/?root=')
+        console.log(url_params)
         var page = url_params[0]
         var root = url_params[1]
-
+        console.log("Goto Page: ", page, " at Root: ", root)
         goto_page(page, root)
-        selectRoot(root)
         return false;
     }
     if (element.classList.contains('letter')) {
@@ -36,6 +36,7 @@ function goto_page(page, root){
     swapPageImage(page)
     setNext(page)
     setPrev(page)
+    setActive(page, root)
     setNewURL(page, root)
 }
 
@@ -70,6 +71,16 @@ function swapPageImage(page) {
     var img = document.querySelectorAll('.page-img img')
         .forEach(function(img){ img.src = new_src })
 }
+function setActive(page, root){
+    if(!root){
+        selector = ".root[data-page='" + page + "']"
+        root = document.querySelector(selector).id
+    }
+    root = document.getElementById("root_" + root)
+    letter = root.closest('.letter')
+    selectRoot(root.id)
+    selectLetter(letter)
+}
 
 function selectLetter(elem) {
     var x = document.querySelectorAll('.active-letter')
@@ -77,9 +88,9 @@ function selectLetter(elem) {
     elem.classList.add('active-letter');
 }
 
-function selectRoot(root_num) {
-    id = 'root_' + root_num
-    var x = document.querySelectorAll('.active-root')
+function selectRoot(root_id) {
+    document.querySelectorAll('.active-root')
         .forEach(function(el) { el.classList.remove('active-root') });
-    document.getElementById(id).classList.add('active-root');
+    var x = document.getElementById(root_id)
+    x.classList.add('active-root');
 }

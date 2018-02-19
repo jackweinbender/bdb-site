@@ -38,10 +38,10 @@ class PageView(BuildableDetailView):
 
 def get_active_root(page_id):
     active_page = Root.objects.filter(page=page_id).first()
-    if active_page:
+    if active_page != None:
         return active_page
     else:
-        get_active_root(page_id - 1)
+        return get_active_root(page_id - 1)
 
 def get_next_page(current_page):
     if is_valid_page(current_page + 1):
