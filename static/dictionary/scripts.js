@@ -1,3 +1,13 @@
+window.onload = function(e){
+    var url_params = location.href.split('page/')[1].split('/?root=')
+    if (url_params.length > 1){
+        var page = url_params[0]
+        var root = url_params[1]
+
+        selectRoot(root)
+    }
+}
+
 document.onclick = function (e) {
     e = e ||  window.event;
     var element = e.target || e.srcElement;
@@ -7,15 +17,51 @@ document.onclick = function (e) {
         var page = url_params[0]
         var root = url_params[1]
 
-        swapPageImage(page);
-        setNewURL(page, root)
-        selectRoot(element.parentElement)
+        goto_page(page, root)
+        selectRoot(root)
+        return false;
+    }
+    if (element.classList.contains('letter')) {
+        selectLetter(element)
+        return false;
+    }
+    if (element.classList.contains('next') || element.classList.contains('prev')) {
+        var page = element.href.split('page/')[1].split('/')[0]
+        goto_page(page, false)
         return false;
     }
   };
 
+function goto_page(page, root){
+    swapPageImage(page)
+    setNext(page)
+    setPrev(page)
+    setNewURL(page, root)
+}
+
+function setNext(page){
+    var next_page = (parseInt(page, 10) + 1) % 1118
+    var new_next = '/page/' + next_page + '/'
+    var next = document.querySelectorAll('.next')
+        .forEach(function(n){ n.href = new_next })
+}
+function setPrev(page){
+    var new_prev;
+    if(page === '1'){ 
+        new_prev = page
+    } else {
+        new_prev = parseInt(page, 10) - 1
+    }
+    var new_prev = '/page/' + new_prev + '/'
+    var prev = document.querySelectorAll('.prev')
+        .forEach(function(n){ n.href = new_prev })
+}
+
 function setNewURL(page, root){
-    var url = '/page/' + page + '/?root=' + root
+    var url = '/page/' + page
+    if(root){
+        url += '/?root=' + root
+    }
     window.history.pushState(null, null, url);
 }
 
@@ -31,8 +77,9 @@ function selectLetter(elem) {
     elem.classList.add('active-letter');
 }
 
-function selectRoot(elem) {
+function selectRoot(root_num) {
+    id = 'root_' + root_num
     var x = document.querySelectorAll('.active-root')
         .forEach(function(el) { el.classList.remove('active-root') });
-    elem.classList.add('active-root');
+    document.getElementById(id).classList.add('active-root');
 }

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Jastrow | Dictionary of the Targumim</title>
+        <title>Brown–Driver–Briggs | A Hebrew and English Lexicon of the Old Testament</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -23,11 +23,10 @@
                 {% block letters %}
                 <ul class="letters">
                     {% for letter in hebrew %}
-                    <li class="letter{% if letter.id == active_root.letter_id %} active-letter{% endif %}"
-                        onclick=selectLetter(this)>{{letter.char}}
+                    <li id="letter_{{letter.id}}" class="letter{% if letter.id == active_root.letter_id %} active-letter{% endif %}">{{letter.char}}
                         <ul class="roots">
                             {% for root in letter.root_set.all %}
-                            <li class="root{% if root.id == active_root.id %} active-root{% endif %}"><a class="root-link" dir=rtl href="{% url 'page' root.page_id %}?root={{root.id}}">
+                            <li id="root_{{root.id}}" class="root{% if root.id == active_root.id %} active-root{% endif %}"><a class="root-link" dir=rtl href="{% url 'page' root.page_id %}?root={{root.id}}">
                                 {{root.root}}{% if root.homophone != '' %}&ensp;<span dir=ltr class="homophone">{{root.homophone}}&ensp;–</span>{% endif %}</a></li>
                             {% endfor %}
                         </ul>
