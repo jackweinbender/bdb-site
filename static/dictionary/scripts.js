@@ -11,7 +11,22 @@ window.onload = function(e){
         }
     }
 }
+window.onpopstate = function(e) {
+    var url_params = location.href.split('page/')
+    if (url_params.length > 1){
+        url_params = url_params[1].split('/?root=')
 
+        if (url_params.length > 1){
+            var page = url_params[0].replace('/', '')
+            var root = url_params[1]
+
+            goto_page(page, root)
+            closeLetter()
+        }
+    } else {
+        location.reload();
+    }
+  };
 document.onclick = function (e) {
     e = e ||  window.event;
     var element = e.target || e.srcElement;
@@ -38,6 +53,7 @@ document.onclick = function (e) {
   };
 
 function goto_page(page, root){
+    console.log(`Goto Page: ${page} at root: ${root}`)
     swapPageImage(page)
     setNext(page)
     setPrev(page)
@@ -103,17 +119,18 @@ function get_first_root_by_page(page){
 
 function selectLetter(elem) {
     document.querySelectorAll('.active-letter')
-        .forEach(function(el) { el.classList.remove('active-letter') });
-    elem.classList.add('active-letter');
+        .forEach(function(el) { el.classList.remove('active-letter') })
+    elem.classList.add('active-letter')
 }
 function openLetter() {
     document.querySelector('.nav').classList.add('clicked')
 }
 function closeLetter() {
-    document.querySelector('.clicked').classList.remove('clicked')
+    document.querySelectorAll('.clicked')
+        .forEach(function(el) { el.classList.remove('clicked') })
 }
 function selectRoot(root_id) {
     document.querySelectorAll('.active-root')
-        .forEach(function(el) { el.classList.remove('active-root') });
-    document.getElementById(root_id).classList.add('active-root');
+        .forEach(function(el) { el.classList.remove('active-root') })
+    document.getElementById(root_id).classList.add('active-root')
 }
