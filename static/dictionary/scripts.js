@@ -31,6 +31,10 @@ document.onclick = function (e) {
     e = e ||  window.event;
     var element = e.target || e.srcElement;
 
+    if (element.classList.contains('active-letter')) {
+        element.closest('.nav').classList.toggle('clicked')
+        return false;
+    }
     if (element.classList.contains('letter')) {
         selectLetter(element)
         openLetter()
