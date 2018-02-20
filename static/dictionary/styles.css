@@ -18,7 +18,6 @@ h1, h2, h3 {
 }
 h3 {float:right; display:inline-block;}
 .header {
-  position: absolute;
   width: 100%;
   z-index: 999;
 }
@@ -27,7 +26,6 @@ h3 {float:right; display:inline-block;}
   position: relative;
   display: flex;
   overflow: hidden;
-  padding-top:6rem;
 }
 .nav {
   flex: none;
@@ -46,7 +44,7 @@ h3 {float:right; display:inline-block;}
 .active-letter > .roots { display:block; }
 .page-img img { 
   width: 100%;
-  min-width: 40rem;
+  min-width: 25rem;
 }
 
 /* Typography */
@@ -127,7 +125,7 @@ h2, h3 {font-style: italic;}
 }
   .page-nav a {
     width: 50%;
-    padding: 0.5rem 5rem;
+    padding: 0.5rem;
     color: black;
     text-align: center;
     text-decoration: none;
@@ -135,6 +133,12 @@ h2, h3 {font-style: italic;}
   }
   .page-nav a:hover {
     text-decoration: underline;
+  }
+  .next {
+    padding-right: 5rem;
+  }
+  .prev {
+    padding-left: 5rem;
   }
 .disabled {
   text-decoration: none !important;
@@ -145,4 +149,16 @@ h2, h3 {font-style: italic;}
   padding-top:3rem;
   height:100%;
   overflow-y: scroll;
+}
+
+@media(max-width:35rem){
+  h1{ 
+    font-size: 1.5rem;
+    padding-bottom:0.25rem;
+  }
+  h2{ font-size: 1rem }
+  .active-letter > .roots { display:none; }
+  .nav { width: 3rem; }
+  .clicked { width:13rem; }
+  .clicked .active-letter .roots { display:block; }
 }

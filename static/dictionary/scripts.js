@@ -16,20 +16,23 @@ document.onclick = function (e) {
     e = e ||  window.event;
     var element = e.target || e.srcElement;
 
+    if (element.classList.contains('letter')) {
+        selectLetter(element)
+        openLetter()
+        return false;
+    }
     if (element.classList.contains('root-link')) {
         var url_params = element.href.split('page/')[1].split('/?root=')
         var page = url_params[0]
         var root = url_params[1]
         goto_page(page, root)
-        return false;
-    }
-    if (element.classList.contains('letter')) {
-        selectLetter(element)
+        closeLetter()
         return false;
     }
     if (element.classList.contains('next') || element.classList.contains('prev')) {
         var page = element.href.split('page/')[1].split('/')[0]
         goto_page(page, false)
+        closeLetter()
         return false;
     }
   };
@@ -74,7 +77,6 @@ function swapPageImage(page) {
         .forEach(function(img){ img.src = new_src })
 }
 function setActive(page, root_num){
-    console.log(page, root_num)
     var root_id
     if(root_num){
         root_id = 'root_' + root_num
@@ -100,14 +102,18 @@ function get_first_root_by_page(page){
 }
 
 function selectLetter(elem) {
-    var x = document.querySelectorAll('.active-letter')
+    document.querySelectorAll('.active-letter')
         .forEach(function(el) { el.classList.remove('active-letter') });
     elem.classList.add('active-letter');
 }
-
+function openLetter() {
+    document.querySelector('.nav').classList.add('clicked')
+}
+function closeLetter() {
+    document.querySelector('.clicked').classList.remove('clicked')
+}
 function selectRoot(root_id) {
     document.querySelectorAll('.active-root')
         .forEach(function(el) { el.classList.remove('active-root') });
-    var x = document.getElementById(root_id)
-    x.classList.add('active-root');
+    document.getElementById(root_id).classList.add('active-root');
 }
