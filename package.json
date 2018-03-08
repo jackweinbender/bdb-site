@@ -1,0 +1,12 @@
+{
+  "name": "bdb-site",
+  "version": "0.0.2",
+  "description": "Build the BDB Static Site for bdb.semitics-archive.org",
+  "main": "build.js",
+  "repository": "git@github.com:jackweinbender/bdb-site.git",
+  "author": "Jack Weinbender <jack.weinbender@gmail.com>",
+  "license": "GPLv3",
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  }
+}

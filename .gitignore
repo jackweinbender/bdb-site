@@ -1,6 +1,2 @@
-__pycache__
-.vscode
-*.sqlite3
+node_modules
 build
-.DS_Store
-*.pyc
