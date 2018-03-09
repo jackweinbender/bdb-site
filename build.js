@@ -2,15 +2,15 @@ var fs = require('fs');
 const hbs = require('handlebars')
 
 // Load Data from JSON
-const letters = require('./letters')
-const pages = require('./pages')
-const roots = require('./roots')
+const letters = require('./_data/letters')
+const pages = require('./_data/pages')
+const roots = require('./_data/roots')
 
 // Load Template and Partial Files
 const index     = fs.readFileSync('index.hbs', 'utf8')
-const head      = fs.readFileSync('partials/head.hbs', 'utf8')
-const nav       = fs.readFileSync('partials/nav.hbs', 'utf8')
-const page_nav  = fs.readFileSync('partials/page-nav.hbs', 'utf8')
+const head      = fs.readFileSync('_partials/head.hbs', 'utf8')
+const nav       = fs.readFileSync('_partials/nav.hbs', 'utf8')
+const page_nav  = fs.readFileSync('_partials/page-nav.hbs', 'utf8')
 
 // Precompile the Navigateion (cuts compile in half)
 let n = hbs.compile(nav)
