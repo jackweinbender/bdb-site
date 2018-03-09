@@ -6,6 +6,11 @@
   "repository": "git@github.com:jackweinbender/bdb-site.git",
   "author": "Jack Weinbender <jack.weinbender@gmail.com>",
   "license": "GPLv3",
+  "scripts": {
+    "start": "yarn run clean && yarn run build",
+    "build": "mkdir dist && node build.js",
+    "clean": "rm -rf dist"
+  },
   "dependencies": {
     "handlebars": "^4.0.11"
   }

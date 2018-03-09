@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114374505-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-114374505-1');
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Brown–Driver–Briggs | A Hebrew and English Lexicon of the Old Testament</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="/assets/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Brown–Driver–Briggs</h1>
+            <h2>A Hebrew and English Lexicon of the Old Testament</h2>
+        </header>
+        <div class="wrapper">
+            <div class="nav">
+                <ul class="letters">
+                    {{#each letters as |letter|}}
+                    <li id="letter_{{letter.id}}" class="letter">{{letter.attributes.char}}
+                        <ul class="roots">
+                            {{#each letter.attributes.roots as |root|}}
+                            <li id="root_{{root.id}}" data-page="{{root.attributes.page_id}}" class="root"><a class="root-link" dir=rtl href="/page/{{root.attributes.page_id}}?root={{root.id}}">
+                                {{root.root}}
+                                {{#if root.attributes.homophone}}
+                                    &ensp;<span dir=ltr class="homophone">{{root.attributes.homophone}}&ensp;–</span>
+                                {{/if}}
+                                </a></li>
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="page-view">
+                <div class="page-nav">   
+                    <a class="prev"
+                        href="{{page.id}}">«&nbsp;Prev</a>
+                    <a class="next"
+                        href="{{page.id}}">Next&nbsp;»</a>
+                </div>
+                <div class="page-img">
+                    <img src="static/dictionary/pages/{{page.id}}_original.png" alt="BDB Page {{page.id}}">
+                </div>
+            </div>
+        </div>
+        <script src="/assets/scripts.js"></script>
+    </body>
+</html>
