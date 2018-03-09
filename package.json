@@ -10,7 +10,8 @@
     "start": "yarn run clean && yarn run build",
     "setup": "mkdir dist && mkdir dist/page",
     "build": "yarn run setup && node build.js",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "serve": "php -S localhost:8000 -t dist/"
   },
   "dependencies": {
     "handlebars": "^4.0.11"
