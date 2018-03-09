@@ -1,0 +1,17 @@
+<div class="nav">
+    <ul class="letters">
+        {{#each letters as |letter|}}
+        <li id="letter_{{letter.id}}" class="letter">{{letter.char}}
+            <ul class="roots">
+                {{#each (lookup ../roots letter.id) as |root|}}
+                <li id="root_{{root.id}}" data-page="{{root.page}}" class="root">
+                    <a class="root-link" dir=rtl href="/page/{{root.page}}?root={{root.id}}">{{root.root ~}}
+                    {{#if root.homophone}}
+                        &ensp;<span dir=ltr class="homophone">{{root.homophone}}&ensp;–</span>
+                    {{/if}}</a></li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/each}}
+    </ul>
+</div>
