@@ -24,14 +24,6 @@ hbs.registerPartial('nav', nav_compiled)
 // Compile the main template
 let template = hbs.compile(index)
 
-
-// Build the Dictionary Structure
-fs.mkdirSync(`dist/preface/`)
-fs.mkdirSync(`dist/abbr/`)
-fs.mkdirSync(`dist/hebrew/`)
-fs.mkdirSync(`dist/aramaic/`)
-fs.mkdirSync(`dist/errata/`)
-
 // Write out Each Page to its Section
 pages.forEach(page => {
     let data = { page: page, letters: letters, roots: roots }
@@ -41,8 +33,7 @@ pages.forEach(page => {
     if(page.section == 'title'){
         fs.writeFileSync(`dist/index.html`, output)
     } else {
-        fs.mkdirSync(`dist/${page.section}/${page.id}/`)
-        fs.writeFileSync(`dist/${page.section}/${page.id}/index.html`, output)
+        fs.writeFileSync(`dist/${page.section}-${page.id}.html`, output)
     }
 })
 

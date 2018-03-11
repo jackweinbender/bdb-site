@@ -12,7 +12,7 @@
     "build": "yarn run clean && yarn run setup && yarn run assets && yarn run images && node build.js",
     "clean": "rm -rf dist",
     "assets": "cp -r assets dist/assets",
-    "get_img": "rm -rf images && mkdir images && python3 get_images.py",
+    "get_img": "python3 get_images.py",
     "images": "cp -r images dist/images",
     "serve": "php -S localhost:8000 -t dist/"
   },
