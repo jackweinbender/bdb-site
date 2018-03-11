@@ -1,6 +1,5 @@
 [
   {
-    "type": "letter",
     "id": 1,
     "language": "hebrew",
     "char": "א",
@@ -9,7 +8,6 @@
     "sort-order": 1
   },
   {
-    "type": "letter",
     "id": 2,
     "language": "hebrew",
     "char": "ב",
@@ -18,7 +16,6 @@
     "sort-order": 2
   },
   {
-    "type": "letter",
     "id": 3,
     "language": "hebrew",
     "char": "ג",
@@ -27,7 +24,6 @@
     "sort-order": 3
   },
   {
-    "type": "letter",
     "id": 4,
     "language": "hebrew",
     "char": "ד",
@@ -36,7 +32,6 @@
     "sort-order": 4
   },
   {
-    "type": "letter",
     "id": 5,
     "language": "hebrew",
     "char": "ה",
@@ -45,7 +40,6 @@
     "sort-order": 5
   },
   {
-    "type": "letter",
     "id": 6,
     "language": "hebrew",
     "char": "ו",
@@ -54,7 +48,6 @@
     "sort-order": 6
   },
   {
-    "type": "letter",
     "id": 7,
     "language": "hebrew",
     "char": "ז",
@@ -63,7 +56,6 @@
     "sort-order": 7
   },
   {
-    "type": "letter",
     "id": 8,
     "language": "hebrew",
     "char": "ח",
@@ -72,7 +64,6 @@
     "sort-order": 8
   },
   {
-    "type": "letter",
     "id": 9,
     "language": "hebrew",
     "char": "ט",
@@ -81,7 +72,6 @@
     "sort-order": 9
   },
   {
-    "type": "letter",
     "id": 10,
     "language": "hebrew",
     "char": "י",
@@ -90,7 +80,6 @@
     "sort-order": 10
   },
   {
-    "type": "letter",
     "id": 11,
     "language": "hebrew",
     "char": "כ",
@@ -99,7 +88,6 @@
     "sort-order": 11
   },
   {
-    "type": "letter",
     "id": 12,
     "language": "hebrew",
     "char": "ל",
@@ -108,7 +96,6 @@
     "sort-order": 12
   },
   {
-    "type": "letter",
     "id": 13,
     "language": "hebrew",
     "char": "מ",
@@ -117,7 +104,6 @@
     "sort-order": 13
   },
   {
-    "type": "letter",
     "id": 14,
     "language": "hebrew",
     "char": "נ",
@@ -126,7 +112,6 @@
     "sort-order": 14
   },
   {
-    "type": "letter",
     "id": 15,
     "language": "hebrew",
     "char": "ס",
@@ -135,7 +120,6 @@
     "sort-order": 15
   },
   {
-    "type": "letter",
     "id": 16,
     "language": "hebrew",
     "char": "ע",
@@ -144,7 +128,6 @@
     "sort-order": 16
   },
   {
-    "type": "letter",
     "id": 17,
     "language": "hebrew",
     "char": "פ",
@@ -153,7 +136,6 @@
     "sort-order": 17
   },
   {
-    "type": "letter",
     "id": 18,
     "language": "hebrew",
     "char": "צ",
@@ -162,7 +144,6 @@
     "sort-order": 18
   },
   {
-    "type": "letter",
     "id": 19,
     "language": "hebrew",
     "char": "ק",
@@ -171,7 +152,6 @@
     "sort-order": 19
   },
   {
-    "type": "letter",
     "id": 20,
     "language": "hebrew",
     "char": "ר",
@@ -180,7 +160,6 @@
     "sort-order": 20
   },
   {
-    "type": "letter",
     "id": 21,
     "language": "hebrew",
     "char": "שׂ",
@@ -189,7 +168,6 @@
     "sort-order": 21
   },
   {
-    "type": "letter",
     "id": 22,
     "language": "hebrew",
     "char": "שׁ",
@@ -198,7 +176,6 @@
     "sort-order": 22
   },
   {
-    "type": "letter",
     "id": 23,
     "language": "hebrew",
     "char": "ת",
@@ -207,7 +184,6 @@
     "sort-order": 23
   },
   {
-    "type": "letter",
     "id": 101,
     "language": "aramaic",
     "char": "א",
@@ -216,7 +192,6 @@
     "sort-order": 1
   },
   {
-    "type": "letter",
     "id": 102,
     "language": "aramaic",
     "char": "ב",
@@ -225,7 +200,6 @@
     "sort-order": 2
   },
   {
-    "type": "letter",
     "id": 103,
     "language": "aramaic",
     "char": "ג",
@@ -234,7 +208,6 @@
     "sort-order": 3
   },
   {
-    "type": "letter",
     "id": 104,
     "language": "aramaic",
     "char": "ד",
@@ -243,7 +216,6 @@
     "sort-order": 4
   },
   {
-    "type": "letter",
     "id": 105,
     "language": "aramaic",
     "char": "ה",
@@ -252,7 +224,6 @@
     "sort-order": 5
   },
   {
-    "type": "letter",
     "id": 106,
     "language": "aramaic",
     "char": "ו",
@@ -261,7 +232,6 @@
     "sort-order": 6
   },
   {
-    "type": "letter",
     "id": 107,
     "language": "aramaic",
     "char": "ז",
@@ -270,7 +240,6 @@
     "sort-order": 7
   },
   {
-    "type": "letter",
     "id": 108,
     "language": "aramaic",
     "char": "ח",
@@ -279,7 +248,6 @@
     "sort-order": 8
   },
   {
-    "type": "letter",
     "id": 109,
     "language": "aramaic",
     "char": "ט",
@@ -288,7 +256,6 @@
     "sort-order": 9
   },
   {
-    "type": "letter",
     "id": 110,
     "language": "aramaic",
     "char": "י",
@@ -297,7 +264,6 @@
     "sort-order": 10
   },
   {
-    "type": "letter",
     "id": 111,
     "language": "aramaic",
     "char": "כ",
@@ -306,7 +272,6 @@
     "sort-order": 11
   },
   {
-    "type": "letter",
     "id": 112,
     "language": "aramaic",
     "char": "ל",
@@ -315,7 +280,6 @@
     "sort-order": 12
   },
   {
-    "type": "letter",
     "id": 113,
     "language": "aramaic",
     "char": "מ",
@@ -324,7 +288,6 @@
     "sort-order": 13
   },
   {
-    "type": "letter",
     "id": 114,
     "language": "aramaic",
     "char": "נ",
@@ -333,7 +296,6 @@
     "sort-order": 14
   },
   {
-    "type": "letter",
     "id": 115,
     "language": "aramaic",
     "char": "ס",
@@ -342,7 +304,6 @@
     "sort-order": 15
   },
   {
-    "type": "letter",
     "id": 116,
     "language": "aramaic",
     "char": "ע",
@@ -351,7 +312,6 @@
     "sort-order": 16
   },
   {
-    "type": "letter",
     "id": 117,
     "language": "aramaic",
     "char": "פ",
@@ -360,7 +320,6 @@
     "sort-order": 17
   },
   {
-    "type": "letter",
     "id": 118,
     "language": "aramaic",
     "char": "צ",
@@ -369,7 +328,6 @@
     "sort-order": 18
   },
   {
-    "type": "letter",
     "id": 119,
     "language": "aramaic",
     "char": "ק",
@@ -378,7 +336,6 @@
     "sort-order": 19
   },
   {
-    "type": "letter",
     "id": 120,
     "language": "aramaic",
     "char": "ר",
@@ -387,7 +344,6 @@
     "sort-order": 20
   },
   {
-    "type": "letter",
     "id": 121,
     "language": "aramaic",
     "char": "שׂ",
@@ -396,7 +352,6 @@
     "sort-order": 21
   },
   {
-    "type": "letter",
     "id": 122,
     "language": "aramaic",
     "char": "שׁ",
@@ -405,7 +360,6 @@
     "sort-order": 22
   },
   {
-    "type": "letter",
     "id": 123,
     "language": "aramaic",
     "char": "ת",
