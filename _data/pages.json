@@ -1,6704 +1,9113 @@
 [
   {
     "type": "page",
+    "id": "title",
+    "section": "title",
+    "next": "v",
+    "prev": false
+  },
+  {
+    "type": "page",
+    "id": "v",
+    "section": "preface",
+    "next": "vi",
+    "prev": "iv"
+  },
+  {
+    "type": "page",
+    "id": "vi",
+    "section": "preface",
+    "next": "vii",
+    "prev": "v"
+  },
+  {
+    "type": "page",
+    "id": "vii",
+    "section": "preface",
+    "next": "viii",
+    "prev": "vi"
+  },
+  {
+    "type": "page",
+    "id": "viii",
+    "section": "preface",
+    "next": "ix",
+    "prev": "vii"
+  },
+  {
+    "type": "page",
+    "id": "ix",
+    "section": "preface",
+    "next": "x",
+    "prev": "viii"
+  },
+  {
+    "type": "page",
+    "id": "x",
+    "section": "preface",
+    "next": "xi",
+    "prev": "ix"
+  },
+  {
+    "type": "page",
+    "id": "xi",
+    "section": "preface",
+    "next": "xii",
+    "prev": "x"
+  },
+  {
+    "type": "page",
+    "id": "xii",
+    "section": "preface",
+    "next": "xiii",
+    "prev": "xi"
+  },
+  {
+    "type": "page",
+    "id": "xiii",
+    "section": "abbr",
+    "next": "xiv",
+    "prev": "xii"
+  },
+  {
+    "type": "page",
+    "id": "xiv",
+    "section": "abbr",
+    "next": "xv",
+    "prev": "xiii"
+  },
+  {
+    "type": "page",
+    "id": "xv",
+    "section": "abbr",
+    "next": "xvi",
+    "prev": "xiv"
+  },
+  {
+    "type": "page",
+    "id": "xvi",
+    "section": "abbr",
+    "next": "xvii",
+    "prev": "xv"
+  },
+  {
+    "type": "page",
+    "id": "xvii",
+    "section": "abbr",
+    "next": "xviii",
+    "prev": "xvi"
+  },
+  {
+    "type": "page",
+    "id": "xviii",
+    "section": "abbr",
+    "next": "xix",
+    "prev": "xvii"
+  },
+  {
+    "type": "page",
+    "id": "xix",
+    "section": "abbr",
+    "next": "xx",
+    "prev": "xviii"
+  },
+  {
+    "type": "page",
     "id": 1,
-    "number": 1,
+    "section": "hebrew",
+    "next": 2,
+    "prev": "xx",
     "first_root": 3
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 2,
-    "number": 2,
+    "next": 3,
+    "prev": 1,
     "first_root": 4
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 3,
-    "number": 3,
+    "next": 4,
+    "prev": 2,
     "first_root": 5
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 4,
-    "number": 4,
+    "next": 5,
+    "prev": 3,
     "first_root": 5
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 5,
-    "number": 5,
+    "next": 6,
+    "prev": 4,
     "first_root": 10
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 6,
-    "number": 6,
+    "next": 7,
+    "prev": 5,
     "first_root": 13
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 7,
-    "number": 7,
+    "next": 8,
+    "prev": 6,
     "first_root": 18
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 8,
-    "number": 8,
+    "next": 9,
+    "prev": 7,
     "first_root": 26
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 9,
-    "number": 9,
+    "next": 10,
+    "prev": 8,
     "first_root": 29
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 10,
-    "number": 10,
+    "next": 11,
+    "prev": 9,
     "first_root": 31
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 11,
-    "number": 11,
+    "next": 12,
+    "prev": 10,
     "first_root": 31
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 12,
-    "number": 12,
+    "next": 13,
+    "prev": 11,
     "first_root": 34
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 13,
-    "number": 13,
+    "next": 14,
+    "prev": 12,
     "first_root": 38
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 14,
-    "number": 14,
+    "next": 15,
+    "prev": 13,
     "first_root": 41
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 15,
-    "number": 15,
+    "next": 16,
+    "prev": 14,
     "first_root": 44
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 16,
-    "number": 16,
+    "next": 17,
+    "prev": 15,
     "first_root": 46
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 17,
-    "number": 17,
+    "next": 18,
+    "prev": 16,
     "first_root": 50
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 18,
-    "number": 18,
+    "next": 19,
+    "prev": 17,
     "first_root": 50
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 19,
-    "number": 19,
+    "next": 20,
+    "prev": 18,
     "first_root": 53
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 20,
-    "number": 20,
+    "next": 21,
+    "prev": 19,
     "first_root": 54
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 21,
-    "number": 21,
+    "next": 22,
+    "prev": 20,
     "first_root": 56
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 22,
-    "number": 22,
+    "next": 23,
+    "prev": 21,
     "first_root": 57
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 23,
-    "number": 23,
+    "next": 24,
+    "prev": 22,
     "first_root": 59
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 24,
-    "number": 24,
+    "next": 25,
+    "prev": 23,
     "first_root": 60
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 25,
-    "number": 25,
+    "next": 26,
+    "prev": 24,
     "first_root": 62
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 26,
-    "number": 26,
+    "next": 27,
+    "prev": 25,
     "first_root": 63
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 27,
-    "number": 27,
+    "next": 28,
+    "prev": 26,
     "first_root": 63
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 28,
-    "number": 28,
+    "next": 29,
+    "prev": 27,
     "first_root": 66
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 29,
-    "number": 29,
+    "next": 30,
+    "prev": 28,
     "first_root": 68
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 30,
-    "number": 30,
+    "next": 31,
+    "prev": 29,
     "first_root": 68
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 31,
-    "number": 31,
+    "next": 32,
+    "prev": 30,
     "first_root": 71
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 32,
-    "number": 32,
+    "next": 33,
+    "prev": 31,
     "first_root": 73
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 33,
-    "number": 33,
+    "next": 34,
+    "prev": 32,
     "first_root": 77
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 34,
-    "number": 34,
+    "next": 35,
+    "prev": 33,
     "first_root": 78
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 35,
-    "number": 35,
+    "next": 36,
+    "prev": 34,
     "first_root": 79
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 36,
-    "number": 36,
+    "next": 37,
+    "prev": 35,
     "first_root": 79
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 37,
-    "number": 37,
+    "next": 38,
+    "prev": 36,
     "first_root": 81
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 38,
-    "number": 38,
+    "next": 39,
+    "prev": 37,
     "first_root": 85
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 39,
-    "number": 39,
+    "next": 40,
+    "prev": 38,
     "first_root": 87
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 40,
-    "number": 40,
+    "next": 41,
+    "prev": 39,
     "first_root": 87
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 41,
-    "number": 41,
+    "next": 42,
+    "prev": 40,
     "first_root": 90
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 42,
-    "number": 42,
+    "next": 43,
+    "prev": 41,
     "first_root": 90
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 43,
-    "number": 43,
+    "next": 44,
+    "prev": 42,
     "first_root": 90
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 44,
-    "number": 44,
+    "next": 45,
+    "prev": 43,
     "first_root": 90
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 45,
-    "number": 45,
+    "next": 46,
+    "prev": 44,
     "first_root": 90
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 46,
-    "number": 46,
+    "next": 47,
+    "prev": 45,
     "first_root": 92
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 47,
-    "number": 47,
+    "next": 48,
+    "prev": 46,
     "first_root": 96
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 48,
-    "number": 48,
+    "next": 49,
+    "prev": 47,
     "first_root": 98
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 49,
-    "number": 49,
+    "next": 50,
+    "prev": 48,
     "first_root": 99
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 50,
-    "number": 50,
+    "next": 51,
+    "prev": 49,
     "first_root": 99
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 51,
-    "number": 51,
+    "next": 52,
+    "prev": 50,
     "first_root": 102
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 52,
-    "number": 52,
+    "next": 53,
+    "prev": 51,
     "first_root": 103
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 53,
-    "number": 53,
+    "next": 54,
+    "prev": 52,
     "first_root": 103
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 54,
-    "number": 54,
+    "next": 55,
+    "prev": 53,
     "first_root": 104
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 55,
-    "number": 55,
+    "next": 56,
+    "prev": 54,
     "first_root": 105
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 56,
-    "number": 56,
+    "next": 57,
+    "prev": 55,
     "first_root": 105
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 57,
-    "number": 57,
+    "next": 58,
+    "prev": 56,
     "first_root": 105
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 58,
-    "number": 58,
+    "next": 59,
+    "prev": 57,
     "first_root": 111
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 59,
-    "number": 59,
+    "next": 60,
+    "prev": 58,
     "first_root": 115
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 60,
-    "number": 60,
+    "next": 61,
+    "prev": 59,
     "first_root": 120
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 61,
-    "number": 61,
+    "next": 62,
+    "prev": 60,
     "first_root": 124
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 62,
-    "number": 62,
+    "next": 63,
+    "prev": 61,
     "first_root": 126
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 63,
-    "number": 63,
+    "next": 64,
+    "prev": 62,
     "first_root": 127
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 64,
-    "number": 64,
+    "next": 65,
+    "prev": 63,
     "first_root": 128
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 65,
-    "number": 65,
+    "next": 66,
+    "prev": 64,
     "first_root": 129
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 66,
-    "number": 66,
+    "next": 67,
+    "prev": 65,
     "first_root": 133
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 67,
-    "number": 67,
+    "next": 68,
+    "prev": 66,
     "first_root": 136
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 68,
-    "number": 68,
+    "next": 69,
+    "prev": 67,
     "first_root": 139
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 69,
-    "number": 69,
+    "next": 70,
+    "prev": 68,
     "first_root": 142
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 70,
-    "number": 70,
+    "next": 71,
+    "prev": 69,
     "first_root": 144
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 71,
-    "number": 71,
+    "next": 72,
+    "prev": 70,
     "first_root": 145
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 72,
-    "number": 72,
+    "next": 73,
+    "prev": 71,
     "first_root": 148
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 73,
-    "number": 73,
+    "next": 74,
+    "prev": 72,
     "first_root": 149
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 74,
-    "number": 74,
+    "next": 75,
+    "prev": 73,
     "first_root": 152
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 75,
-    "number": 75,
+    "next": 76,
+    "prev": 74,
     "first_root": 154
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 76,
-    "number": 76,
+    "next": 77,
+    "prev": 75,
     "first_root": 156
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 77,
-    "number": 77,
+    "next": 78,
+    "prev": 76,
     "first_root": 158
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 78,
-    "number": 78,
+    "next": 79,
+    "prev": 77,
     "first_root": 160
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 79,
-    "number": 79,
+    "next": 80,
+    "prev": 78,
     "first_root": 162
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 80,
-    "number": 80,
+    "next": 81,
+    "prev": 79,
     "first_root": 166
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 81,
-    "number": 81,
+    "next": 82,
+    "prev": 80,
     "first_root": 167
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 82,
-    "number": 82,
+    "next": 83,
+    "prev": 81,
     "first_root": 167
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 83,
-    "number": 83,
+    "next": 84,
+    "prev": 82,
     "first_root": 167
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 84,
-    "number": 84,
+    "next": 85,
+    "prev": 83,
     "first_root": 169
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 85,
-    "number": 85,
+    "next": 86,
+    "prev": 84,
     "first_root": 170
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 86,
-    "number": 86,
+    "next": 87,
+    "prev": 85,
     "first_root": 170
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 87,
-    "number": 87,
+    "next": 88,
+    "prev": 86,
     "first_root": 172
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 88,
-    "number": 88,
+    "next": 89,
+    "prev": 87,
     "first_root": 175
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 89,
-    "number": 89,
+    "next": 90,
+    "prev": 88,
     "first_root": 175
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 90,
-    "number": 90,
+    "next": 91,
+    "prev": 89,
     "first_root": 175
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 91,
-    "number": 91,
+    "next": 92,
+    "prev": 90,
     "first_root": 176
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 92,
-    "number": 92,
+    "next": 93,
+    "prev": 91,
     "first_root": 177
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 93,
-    "number": 93,
+    "next": 94,
+    "prev": 92,
     "first_root": 178
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 94,
-    "number": 94,
+    "next": 95,
+    "prev": 93,
     "first_root": 179
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 95,
-    "number": 95,
+    "next": 96,
+    "prev": 94,
     "first_root": 181
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 96,
-    "number": 96,
+    "next": 97,
+    "prev": 95,
     "first_root": 185
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 97,
-    "number": 97,
+    "next": 98,
+    "prev": 96,
     "first_root": 189
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 98,
-    "number": 98,
+    "next": 99,
+    "prev": 97,
     "first_root": 189
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 99,
-    "number": 99,
+    "next": 100,
+    "prev": 98,
     "first_root": 189
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 100,
-    "number": 100,
+    "next": 101,
+    "prev": 99,
     "first_root": 192
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 101,
-    "number": 101,
+    "next": 102,
+    "prev": 100,
     "first_root": 197
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 102,
-    "number": 102,
+    "next": 103,
+    "prev": 101,
     "first_root": 200
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 103,
-    "number": 103,
+    "next": 104,
+    "prev": 102,
     "first_root": 206
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 104,
-    "number": 104,
+    "next": 105,
+    "prev": 103,
     "first_root": 207
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 105,
-    "number": 105,
+    "next": 106,
+    "prev": 104,
     "first_root": 211
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 106,
-    "number": 106,
+    "next": 107,
+    "prev": 105,
     "first_root": 214
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 107,
-    "number": 107,
+    "next": 108,
+    "prev": 106,
     "first_root": 214
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 108,
-    "number": 108,
+    "next": 109,
+    "prev": 107,
     "first_root": 215
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 109,
-    "number": 109,
+    "next": 110,
+    "prev": 108,
     "first_root": 215
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 110,
-    "number": 110,
+    "next": 111,
+    "prev": 109,
     "first_root": 215
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 111,
-    "number": 111,
+    "next": 112,
+    "prev": 110,
     "first_root": 215
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 112,
-    "number": 112,
+    "next": 113,
+    "prev": 111,
     "first_root": 215
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 113,
-    "number": 113,
+    "next": 114,
+    "prev": 112,
     "first_root": 216
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 114,
-    "number": 114,
+    "next": 115,
+    "prev": 113,
     "first_root": 218
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 115,
-    "number": 115,
+    "next": 116,
+    "prev": 114,
     "first_root": 219
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 116,
-    "number": 116,
+    "next": 117,
+    "prev": 115,
     "first_root": 219
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 117,
-    "number": 117,
+    "next": 118,
+    "prev": 116,
     "first_root": 222
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 118,
-    "number": 118,
+    "next": 119,
+    "prev": 117,
     "first_root": 225
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 119,
-    "number": 119,
+    "next": 120,
+    "prev": 118,
     "first_root": 226
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 120,
-    "number": 120,
+    "next": 121,
+    "prev": 119,
     "first_root": 226
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 121,
-    "number": 121,
+    "next": 122,
+    "prev": 120,
     "first_root": 226
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 122,
-    "number": 122,
+    "next": 123,
+    "prev": 121,
     "first_root": 226
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 123,
-    "number": 123,
+    "next": 124,
+    "prev": 122,
     "first_root": 226
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 124,
-    "number": 124,
+    "next": 125,
+    "prev": 123,
     "first_root": 227
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 125,
-    "number": 125,
+    "next": 126,
+    "prev": 124,
     "first_root": 227
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 126,
-    "number": 126,
+    "next": 127,
+    "prev": 125,
     "first_root": 232
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 127,
-    "number": 127,
+    "next": 128,
+    "prev": 126,
     "first_root": 234
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 128,
-    "number": 128,
+    "next": 129,
+    "prev": 127,
     "first_root": 235
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 129,
-    "number": 129,
+    "next": 130,
+    "prev": 128,
     "first_root": 236
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 130,
-    "number": 130,
+    "next": 131,
+    "prev": 129,
     "first_root": 241
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 131,
-    "number": 131,
+    "next": 132,
+    "prev": 130,
     "first_root": 243
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 132,
-    "number": 132,
+    "next": 133,
+    "prev": 131,
     "first_root": 245
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 133,
-    "number": 133,
+    "next": 134,
+    "prev": 132,
     "first_root": 246
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 134,
-    "number": 134,
+    "next": 135,
+    "prev": 133,
     "first_root": 247
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 135,
-    "number": 135,
+    "next": 136,
+    "prev": 134,
     "first_root": 250
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 136,
-    "number": 136,
+    "next": 137,
+    "prev": 135,
     "first_root": 252
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 137,
-    "number": 137,
+    "next": 138,
+    "prev": 136,
     "first_root": 254
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 138,
-    "number": 138,
+    "next": 139,
+    "prev": 137,
     "first_root": 255
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 139,
-    "number": 139,
+    "next": 140,
+    "prev": 138,
     "first_root": 255
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 140,
-    "number": 140,
+    "next": 141,
+    "prev": 139,
     "first_root": 258
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 141,
-    "number": 141,
+    "next": 142,
+    "prev": 140,
     "first_root": 260
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 142,
-    "number": 142,
+    "next": 143,
+    "prev": 141,
     "first_root": 261
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 143,
-    "number": 143,
+    "next": 144,
+    "prev": 142,
     "first_root": 265
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 144,
-    "number": 144,
+    "next": 145,
+    "prev": 143,
     "first_root": 270
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 145,
-    "number": 145,
+    "next": 146,
+    "prev": 144,
     "first_root": 271
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 146,
-    "number": 146,
+    "next": 147,
+    "prev": 145,
     "first_root": 276
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 147,
-    "number": 147,
+    "next": 148,
+    "prev": 146,
     "first_root": 278
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 148,
-    "number": 148,
+    "next": 149,
+    "prev": 147,
     "first_root": 280
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 149,
-    "number": 149,
+    "next": 150,
+    "prev": 148,
     "first_root": 281
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 150,
-    "number": 150,
+    "next": 151,
+    "prev": 149,
     "first_root": 282
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 151,
-    "number": 151,
+    "next": 152,
+    "prev": 150,
     "first_root": 283
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 152,
-    "number": 152,
+    "next": 153,
+    "prev": 151,
     "first_root": 285
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 153,
-    "number": 153,
+    "next": 154,
+    "prev": 152,
     "first_root": 285
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 154,
-    "number": 154,
+    "next": 155,
+    "prev": 153,
     "first_root": 288
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 155,
-    "number": 155,
+    "next": 156,
+    "prev": 154,
     "first_root": 293
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 156,
-    "number": 156,
+    "next": 157,
+    "prev": 155,
     "first_root": 296
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 157,
-    "number": 157,
+    "next": 158,
+    "prev": 156,
     "first_root": 300
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 158,
-    "number": 158,
+    "next": 159,
+    "prev": 157,
     "first_root": 302
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 159,
-    "number": 159,
+    "next": 160,
+    "prev": 158,
     "first_root": 306
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 160,
-    "number": 160,
+    "next": 161,
+    "prev": 159,
     "first_root": 311
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 161,
-    "number": 161,
+    "next": 162,
+    "prev": 160,
     "first_root": 316
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 162,
-    "number": 162,
+    "next": 163,
+    "prev": 161,
     "first_root": 321
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 163,
-    "number": 163,
+    "next": 164,
+    "prev": 162,
     "first_root": 321
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 164,
-    "number": 164,
+    "next": 165,
+    "prev": 163,
     "first_root": 324
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 165,
-    "number": 165,
+    "next": 166,
+    "prev": 164,
     "first_root": 324
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 166,
-    "number": 166,
+    "next": 167,
+    "prev": 165,
     "first_root": 326
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 167,
-    "number": 167,
+    "next": 168,
+    "prev": 166,
     "first_root": 329
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 168,
-    "number": 168,
+    "next": 169,
+    "prev": 167,
     "first_root": 331
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 169,
-    "number": 169,
+    "next": 170,
+    "prev": 168,
     "first_root": 331
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 170,
-    "number": 170,
+    "next": 171,
+    "prev": 169,
     "first_root": 336
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 171,
-    "number": 171,
+    "next": 172,
+    "prev": 170,
     "first_root": 337
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 172,
-    "number": 172,
+    "next": 173,
+    "prev": 171,
     "first_root": 341
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 173,
-    "number": 173,
+    "next": 174,
+    "prev": 172,
     "first_root": 346
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 174,
-    "number": 174,
+    "next": 175,
+    "prev": 173,
     "first_root": 347
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 175,
-    "number": 175,
+    "next": 176,
+    "prev": 174,
     "first_root": 351
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 176,
-    "number": 176,
+    "next": 177,
+    "prev": 175,
     "first_root": 355
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 177,
-    "number": 177,
+    "next": 178,
+    "prev": 176,
     "first_root": 356
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 178,
-    "number": 178,
+    "next": 179,
+    "prev": 177,
     "first_root": 362
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 179,
-    "number": 179,
+    "next": 180,
+    "prev": 178,
     "first_root": 366
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 180,
-    "number": 180,
+    "next": 181,
+    "prev": 179,
     "first_root": 367
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 181,
-    "number": 181,
+    "next": 182,
+    "prev": 180,
     "first_root": 367
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 182,
-    "number": 182,
+    "next": 183,
+    "prev": 181,
     "first_root": 367
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 183,
-    "number": 183,
+    "next": 184,
+    "prev": 182,
     "first_root": 367
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 184,
-    "number": 184,
+    "next": 185,
+    "prev": 183,
     "first_root": 367
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 185,
-    "number": 185,
+    "next": 186,
+    "prev": 184,
     "first_root": 369
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 186,
-    "number": 186,
+    "next": 187,
+    "prev": 185,
     "first_root": 373
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 187,
-    "number": 187,
+    "next": 188,
+    "prev": 186,
     "first_root": 377
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 188,
-    "number": 188,
+    "next": 189,
+    "prev": 187,
     "first_root": 380
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 189,
-    "number": 189,
+    "next": 190,
+    "prev": 188,
     "first_root": 384
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 190,
-    "number": 190,
+    "next": 191,
+    "prev": 189,
     "first_root": 386
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 191,
-    "number": 191,
+    "next": 192,
+    "prev": 190,
     "first_root": 391
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 192,
-    "number": 192,
+    "next": 193,
+    "prev": 191,
     "first_root": 392
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 193,
-    "number": 193,
+    "next": 194,
+    "prev": 192,
     "first_root": 393
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 194,
-    "number": 194,
+    "next": 195,
+    "prev": 193,
     "first_root": 397
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 195,
-    "number": 195,
+    "next": 196,
+    "prev": 194,
     "first_root": 399
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 196,
-    "number": 196,
+    "next": 197,
+    "prev": 195,
     "first_root": 402
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 197,
-    "number": 197,
+    "next": 198,
+    "prev": 196,
     "first_root": 403
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 198,
-    "number": 198,
+    "next": 199,
+    "prev": 197,
     "first_root": 405
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 199,
-    "number": 199,
+    "next": 200,
+    "prev": 198,
     "first_root": 408
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 200,
-    "number": 200,
+    "next": 201,
+    "prev": 199,
     "first_root": 414
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 201,
-    "number": 201,
+    "next": 202,
+    "prev": 200,
     "first_root": 419
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 202,
-    "number": 202,
+    "next": 203,
+    "prev": 201,
     "first_root": 419
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 203,
-    "number": 203,
+    "next": 204,
+    "prev": 202,
     "first_root": 419
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 204,
-    "number": 204,
+    "next": 205,
+    "prev": 203,
     "first_root": 422
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 205,
-    "number": 205,
+    "next": 206,
+    "prev": 204,
     "first_root": 424
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 206,
-    "number": 206,
+    "next": 207,
+    "prev": 205,
     "first_root": 427
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 207,
-    "number": 207,
+    "next": 208,
+    "prev": 206,
     "first_root": 427
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 208,
-    "number": 208,
+    "next": 209,
+    "prev": 207,
     "first_root": 427
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 209,
-    "number": 209,
+    "next": 210,
+    "prev": 208,
     "first_root": 428
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 210,
-    "number": 210,
+    "next": 211,
+    "prev": 209,
     "first_root": 431
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 211,
-    "number": 211,
+    "next": 212,
+    "prev": 210,
     "first_root": 435
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 212,
-    "number": 212,
+    "next": 213,
+    "prev": 211,
     "first_root": 439
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 213,
-    "number": 213,
+    "next": 214,
+    "prev": 212,
     "first_root": 444
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 214,
-    "number": 214,
+    "next": 215,
+    "prev": 213,
     "first_root": 448
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 215,
-    "number": 215,
+    "next": 216,
+    "prev": 214,
     "first_root": 448
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 216,
-    "number": 216,
+    "next": 217,
+    "prev": 215,
     "first_root": 449
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 217,
-    "number": 217,
+    "next": 218,
+    "prev": 216,
     "first_root": 451
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 218,
-    "number": 218,
+    "next": 219,
+    "prev": 217,
     "first_root": 451
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 219,
-    "number": 219,
+    "next": 220,
+    "prev": 218,
     "first_root": 451
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 220,
-    "number": 220,
+    "next": 221,
+    "prev": 219,
     "first_root": 451
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 221,
-    "number": 221,
+    "next": 222,
+    "prev": 220,
     "first_root": 451
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 222,
-    "number": 222,
+    "next": 223,
+    "prev": 221,
     "first_root": 452
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 223,
-    "number": 223,
+    "next": 224,
+    "prev": 222,
     "first_root": 456
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 224,
-    "number": 224,
+    "next": 225,
+    "prev": 223,
     "first_root": 457
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 225,
-    "number": 225,
+    "next": 226,
+    "prev": 224,
     "first_root": 457
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 226,
-    "number": 226,
+    "next": 227,
+    "prev": 225,
     "first_root": 457
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 227,
-    "number": 227,
+    "next": 228,
+    "prev": 226,
     "first_root": 457
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 228,
-    "number": 228,
+    "next": 229,
+    "prev": 227,
     "first_root": 459
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 229,
-    "number": 229,
+    "next": 230,
+    "prev": 228,
     "first_root": 465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 230,
-    "number": 230,
+    "next": 231,
+    "prev": 229,
     "first_root": 465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 231,
-    "number": 231,
+    "next": 232,
+    "prev": 230,
     "first_root": 465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 232,
-    "number": 232,
+    "next": 233,
+    "prev": 231,
     "first_root": 465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 233,
-    "number": 233,
+    "next": 234,
+    "prev": 232,
     "first_root": 465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 234,
-    "number": 234,
+    "next": 235,
+    "prev": 233,
     "first_root": 465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 235,
-    "number": 235,
+    "next": 236,
+    "prev": 234,
     "first_root": 465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 236,
-    "number": 236,
+    "next": 237,
+    "prev": 235,
     "first_root": 465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 237,
-    "number": 237,
+    "next": 238,
+    "prev": 236,
     "first_root": 467
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 238,
-    "number": 238,
+    "next": 239,
+    "prev": 237,
     "first_root": 467
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 239,
-    "number": 239,
+    "next": 240,
+    "prev": 238,
     "first_root": 467
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 240,
-    "number": 240,
+    "next": 241,
+    "prev": 239,
     "first_root": 469
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 241,
-    "number": 241,
+    "next": 242,
+    "prev": 240,
     "first_root": 470
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 242,
-    "number": 242,
+    "next": 243,
+    "prev": 241,
     "first_root": 472
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 243,
-    "number": 243,
+    "next": 244,
+    "prev": 242,
     "first_root": 477
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 244,
-    "number": 244,
+    "next": 245,
+    "prev": 243,
     "first_root": 477
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 245,
-    "number": 245,
+    "next": 246,
+    "prev": 244,
     "first_root": 479
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 246,
-    "number": 246,
+    "next": 247,
+    "prev": 245,
     "first_root": 480
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 247,
-    "number": 247,
+    "next": 248,
+    "prev": 246,
     "first_root": 481
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 248,
-    "number": 248,
+    "next": 249,
+    "prev": 247,
     "first_root": 482
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 249,
-    "number": 249,
+    "next": 250,
+    "prev": 248,
     "first_root": 483
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 250,
-    "number": 250,
+    "next": 251,
+    "prev": 249,
     "first_root": 483
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 251,
-    "number": 251,
+    "next": 252,
+    "prev": 250,
     "first_root": 487
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 252,
-    "number": 252,
+    "next": 253,
+    "prev": 251,
     "first_root": 487
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 253,
-    "number": 253,
+    "next": 254,
+    "prev": 252,
     "first_root": 487
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 254,
-    "number": 254,
+    "next": 255,
+    "prev": 253,
     "first_root": 487
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 255,
-    "number": 255,
+    "next": 256,
+    "prev": 254,
     "first_root": 490
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 256,
-    "number": 256,
+    "next": 257,
+    "prev": 255,
     "first_root": 493
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 257,
-    "number": 257,
+    "next": 258,
+    "prev": 256,
     "first_root": 493
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 258,
-    "number": 258,
+    "next": 259,
+    "prev": 257,
     "first_root": 493
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 259,
-    "number": 259,
+    "next": 260,
+    "prev": 258,
     "first_root": 495
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 260,
-    "number": 260,
+    "next": 261,
+    "prev": 259,
     "first_root": 496
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 261,
-    "number": 261,
+    "next": 262,
+    "prev": 260,
     "first_root": 496
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 262,
-    "number": 262,
+    "next": 263,
+    "prev": 261,
     "first_root": 500
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 263,
-    "number": 263,
+    "next": 264,
+    "prev": 262,
     "first_root": 502
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 264,
-    "number": 264,
+    "next": 265,
+    "prev": 263,
     "first_root": 506
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 265,
-    "number": 265,
+    "next": 266,
+    "prev": 264,
     "first_root": 509
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 266,
-    "number": 266,
+    "next": 267,
+    "prev": 265,
     "first_root": 515
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 267,
-    "number": 267,
+    "next": 268,
+    "prev": 266,
     "first_root": 519
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 268,
-    "number": 268,
+    "next": 269,
+    "prev": 267,
     "first_root": 519
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 269,
-    "number": 269,
+    "next": 270,
+    "prev": 268,
     "first_root": 522
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 270,
-    "number": 270,
+    "next": 271,
+    "prev": 269,
     "first_root": 522
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 271,
-    "number": 271,
+    "next": 272,
+    "prev": 270,
     "first_root": 522
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 272,
-    "number": 272,
+    "next": 273,
+    "prev": 271,
     "first_root": 526
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 273,
-    "number": 273,
+    "next": 274,
+    "prev": 272,
     "first_root": 530
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 274,
-    "number": 274,
+    "next": 275,
+    "prev": 273,
     "first_root": 532
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 275,
-    "number": 275,
+    "next": 276,
+    "prev": 274,
     "first_root": 535
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 276,
-    "number": 276,
+    "next": 277,
+    "prev": 275,
     "first_root": 540
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 277,
-    "number": 277,
+    "next": 278,
+    "prev": 276,
     "first_root": 543
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 278,
-    "number": 278,
+    "next": 279,
+    "prev": 277,
     "first_root": 544
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 279,
-    "number": 279,
+    "next": 280,
+    "prev": 278,
     "first_root": 549
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 280,
-    "number": 280,
+    "next": 281,
+    "prev": 279,
     "first_root": 550
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 281,
-    "number": 281,
+    "next": 282,
+    "prev": 280,
     "first_root": 552
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 282,
-    "number": 282,
+    "next": 283,
+    "prev": 281,
     "first_root": 552
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 283,
-    "number": 283,
+    "next": 284,
+    "prev": 282,
     "first_root": 553
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 284,
-    "number": 284,
+    "next": 285,
+    "prev": 283,
     "first_root": 556
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 285,
-    "number": 285,
+    "next": 286,
+    "prev": 284,
     "first_root": 560
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 286,
-    "number": 286,
+    "next": 287,
+    "prev": 285,
     "first_root": 562
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 287,
-    "number": 287,
+    "next": 288,
+    "prev": 286,
     "first_root": 565
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 288,
-    "number": 288,
+    "next": 289,
+    "prev": 287,
     "first_root": 565
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 289,
-    "number": 289,
+    "next": 290,
+    "prev": 288,
     "first_root": 566
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 290,
-    "number": 290,
+    "next": 291,
+    "prev": 289,
     "first_root": 569
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 291,
-    "number": 291,
+    "next": 292,
+    "prev": 290,
     "first_root": 572
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 292,
-    "number": 292,
+    "next": 293,
+    "prev": 291,
     "first_root": 576
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 293,
-    "number": 293,
+    "next": 294,
+    "prev": 292,
     "first_root": 579
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 294,
-    "number": 294,
+    "next": 295,
+    "prev": 293,
     "first_root": 579
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 295,
-    "number": 295,
+    "next": 296,
+    "prev": 294,
     "first_root": 584
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 296,
-    "number": 296,
+    "next": 297,
+    "prev": 295,
     "first_root": 588
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 297,
-    "number": 297,
+    "next": 298,
+    "prev": 296,
     "first_root": 588
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 298,
-    "number": 298,
+    "next": 299,
+    "prev": 297,
     "first_root": 589
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 299,
-    "number": 299,
+    "next": 300,
+    "prev": 298,
     "first_root": 591
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 300,
-    "number": 300,
+    "next": 301,
+    "prev": 299,
     "first_root": 593
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 301,
-    "number": 301,
+    "next": 302,
+    "prev": 300,
     "first_root": 597
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 302,
-    "number": 302,
+    "next": 303,
+    "prev": 301,
     "first_root": 598
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 303,
-    "number": 303,
+    "next": 304,
+    "prev": 302,
     "first_root": 599
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 304,
-    "number": 304,
+    "next": 305,
+    "prev": 303,
     "first_root": 601
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 305,
-    "number": 305,
+    "next": 306,
+    "prev": 304,
     "first_root": 601
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 306,
-    "number": 306,
+    "next": 307,
+    "prev": 305,
     "first_root": 603
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 307,
-    "number": 307,
+    "next": 308,
+    "prev": 306,
     "first_root": 603
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 308,
-    "number": 308,
+    "next": 309,
+    "prev": 307,
     "first_root": 603
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 309,
-    "number": 309,
+    "next": 310,
+    "prev": 308,
     "first_root": 603
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 310,
-    "number": 310,
+    "next": 311,
+    "prev": 309,
     "first_root": 612
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 311,
-    "number": 311,
+    "next": 312,
+    "prev": 310,
     "first_root": 612
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 312,
-    "number": 312,
+    "next": 313,
+    "prev": 311,
     "first_root": 612
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 313,
-    "number": 313,
+    "next": 314,
+    "prev": 312,
     "first_root": 612
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 314,
-    "number": 314,
+    "next": 315,
+    "prev": 313,
     "first_root": 615
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 315,
-    "number": 315,
+    "next": 316,
+    "prev": 314,
     "first_root": 615
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 316,
-    "number": 316,
+    "next": 317,
+    "prev": 315,
     "first_root": 619
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 317,
-    "number": 317,
+    "next": 318,
+    "prev": 316,
     "first_root": 622
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 318,
-    "number": 318,
+    "next": 319,
+    "prev": 317,
     "first_root": 624
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 319,
-    "number": 319,
+    "next": 320,
+    "prev": 318,
     "first_root": 627
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 320,
-    "number": 320,
+    "next": 321,
+    "prev": 319,
     "first_root": 628
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 321,
-    "number": 321,
+    "next": 322,
+    "prev": 320,
     "first_root": 631
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 322,
-    "number": 322,
+    "next": 323,
+    "prev": 321,
     "first_root": 633
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 323,
-    "number": 323,
+    "next": 324,
+    "prev": 322,
     "first_root": 635
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 324,
-    "number": 324,
+    "next": 325,
+    "prev": 323,
     "first_root": 635
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 325,
-    "number": 325,
+    "next": 326,
+    "prev": 324,
     "first_root": 637
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 326,
-    "number": 326,
+    "next": 327,
+    "prev": 325,
     "first_root": 639
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 327,
-    "number": 327,
+    "next": 328,
+    "prev": 326,
     "first_root": 640
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 328,
-    "number": 328,
+    "next": 329,
+    "prev": 327,
     "first_root": 643
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 329,
-    "number": 329,
+    "next": 330,
+    "prev": 328,
     "first_root": 645
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 330,
-    "number": 330,
+    "next": 331,
+    "prev": 329,
     "first_root": 650
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 331,
-    "number": 331,
+    "next": 332,
+    "prev": 330,
     "first_root": 652
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 332,
-    "number": 332,
+    "next": 333,
+    "prev": 331,
     "first_root": 655
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 333,
-    "number": 333,
+    "next": 334,
+    "prev": 332,
     "first_root": 656
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 334,
-    "number": 334,
+    "next": 335,
+    "prev": 333,
     "first_root": 657
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 335,
-    "number": 335,
+    "next": 336,
+    "prev": 334,
     "first_root": 660
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 336,
-    "number": 336,
+    "next": 337,
+    "prev": 335,
     "first_root": 660
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 337,
-    "number": 337,
+    "next": 338,
+    "prev": 336,
     "first_root": 662
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 338,
-    "number": 338,
+    "next": 339,
+    "prev": 337,
     "first_root": 664
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 339,
-    "number": 339,
+    "next": 340,
+    "prev": 338,
     "first_root": 664
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 340,
-    "number": 340,
+    "next": 341,
+    "prev": 339,
     "first_root": 669
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 341,
-    "number": 341,
+    "next": 342,
+    "prev": 340,
     "first_root": 672
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 342,
-    "number": 342,
+    "next": 343,
+    "prev": 341,
     "first_root": 677
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 343,
-    "number": 343,
+    "next": 344,
+    "prev": 342,
     "first_root": 679
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 344,
-    "number": 344,
+    "next": 345,
+    "prev": 343,
     "first_root": 682
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 345,
-    "number": 345,
+    "next": 346,
+    "prev": 344,
     "first_root": 684
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 346,
-    "number": 346,
+    "next": 347,
+    "prev": 345,
     "first_root": 687
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 347,
-    "number": 347,
+    "next": 348,
+    "prev": 346,
     "first_root": 688
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 348,
-    "number": 348,
+    "next": 349,
+    "prev": 347,
     "first_root": 691
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 349,
-    "number": 349,
+    "next": 350,
+    "prev": 348,
     "first_root": 692
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 350,
-    "number": 350,
+    "next": 351,
+    "prev": 349,
     "first_root": 693
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 351,
-    "number": 351,
+    "next": 352,
+    "prev": 350,
     "first_root": 696
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 352,
-    "number": 352,
+    "next": 353,
+    "prev": 351,
     "first_root": 697
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 353,
-    "number": 353,
+    "next": 354,
+    "prev": 352,
     "first_root": 700
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 354,
-    "number": 354,
+    "next": 355,
+    "prev": 353,
     "first_root": 703
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 355,
-    "number": 355,
+    "next": 356,
+    "prev": 354,
     "first_root": 708
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 356,
-    "number": 356,
+    "next": 357,
+    "prev": 355,
     "first_root": 709
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 357,
-    "number": 357,
+    "next": 358,
+    "prev": 356,
     "first_root": 712
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 358,
-    "number": 358,
+    "next": 359,
+    "prev": 357,
     "first_root": 715
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 359,
-    "number": 359,
+    "next": 360,
+    "prev": 358,
     "first_root": 721
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 360,
-    "number": 360,
+    "next": 361,
+    "prev": 359,
     "first_root": 723
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 361,
-    "number": 361,
+    "next": 362,
+    "prev": 360,
     "first_root": 726
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 362,
-    "number": 362,
+    "next": 363,
+    "prev": 361,
     "first_root": 730
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 363,
-    "number": 363,
+    "next": 364,
+    "prev": 362,
     "first_root": 730
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 364,
-    "number": 364,
+    "next": 365,
+    "prev": 363,
     "first_root": 732
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 365,
-    "number": 365,
+    "next": 366,
+    "prev": 364,
     "first_root": 735
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 366,
-    "number": 366,
+    "next": 367,
+    "prev": 365,
     "first_root": 737
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 367,
-    "number": 367,
+    "next": 368,
+    "prev": 366,
     "first_root": 740
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 368,
-    "number": 368,
+    "next": 369,
+    "prev": 367,
     "first_root": 742
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 369,
-    "number": 369,
+    "next": 370,
+    "prev": 368,
     "first_root": 744
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 370,
-    "number": 370,
+    "next": 371,
+    "prev": 369,
     "first_root": 747
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 371,
-    "number": 371,
+    "next": 372,
+    "prev": 370,
     "first_root": 751
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 372,
-    "number": 372,
+    "next": 373,
+    "prev": 371,
     "first_root": 752
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 373,
-    "number": 373,
+    "next": 374,
+    "prev": 372,
     "first_root": 753
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 374,
-    "number": 374,
+    "next": 375,
+    "prev": 373,
     "first_root": 753
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 375,
-    "number": 375,
+    "next": 376,
+    "prev": 374,
     "first_root": 753
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 376,
-    "number": 376,
+    "next": 377,
+    "prev": 375,
     "first_root": 757
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 377,
-    "number": 377,
+    "next": 378,
+    "prev": 376,
     "first_root": 763
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 378,
-    "number": 378,
+    "next": 379,
+    "prev": 377,
     "first_root": 768
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 379,
-    "number": 379,
+    "next": 380,
+    "prev": 378,
     "first_root": 769
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 380,
-    "number": 380,
+    "next": 381,
+    "prev": 379,
     "first_root": 775
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 381,
-    "number": 381,
+    "next": 382,
+    "prev": 380,
     "first_root": 780
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 382,
-    "number": 382,
+    "next": 383,
+    "prev": 381,
     "first_root": 785
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 383,
-    "number": 383,
+    "next": 384,
+    "prev": 382,
     "first_root": 790
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 384,
-    "number": 384,
+    "next": 385,
+    "prev": 383,
     "first_root": 793
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 385,
-    "number": 385,
+    "next": 386,
+    "prev": 384,
     "first_root": 793
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 386,
-    "number": 386,
+    "next": 387,
+    "prev": 385,
     "first_root": 795
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 387,
-    "number": 387,
+    "next": 388,
+    "prev": 386,
     "first_root": 799
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 388,
-    "number": 388,
+    "next": 389,
+    "prev": 387,
     "first_root": 802
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 389,
-    "number": 389,
+    "next": 390,
+    "prev": 388,
     "first_root": 802
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 390,
-    "number": 390,
+    "next": 391,
+    "prev": 389,
     "first_root": 802
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 391,
-    "number": 391,
+    "next": 392,
+    "prev": 390,
     "first_root": 804
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 392,
-    "number": 392,
+    "next": 393,
+    "prev": 391,
     "first_root": 805
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 393,
-    "number": 393,
+    "next": 394,
+    "prev": 392,
     "first_root": 806
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 394,
-    "number": 394,
+    "next": 395,
+    "prev": 393,
     "first_root": 806
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 395,
-    "number": 395,
+    "next": 396,
+    "prev": 394,
     "first_root": 806
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 396,
-    "number": 396,
+    "next": 397,
+    "prev": 395,
     "first_root": 807
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 397,
-    "number": 397,
+    "next": 398,
+    "prev": 396,
     "first_root": 809
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 398,
-    "number": 398,
+    "next": 399,
+    "prev": 397,
     "first_root": 810
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 399,
-    "number": 399,
+    "next": 400,
+    "prev": 398,
     "first_root": 810
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 400,
-    "number": 400,
+    "next": 401,
+    "prev": 399,
     "first_root": 810
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 401,
-    "number": 401,
+    "next": 402,
+    "prev": 400,
     "first_root": 812
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 402,
-    "number": 402,
+    "next": 403,
+    "prev": 401,
     "first_root": 816
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 403,
-    "number": 403,
+    "next": 404,
+    "prev": 402,
     "first_root": 817
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 404,
-    "number": 404,
+    "next": 405,
+    "prev": 403,
     "first_root": 818
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 405,
-    "number": 405,
+    "next": 406,
+    "prev": 404,
     "first_root": 821
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 406,
-    "number": 406,
+    "next": 407,
+    "prev": 405,
     "first_root": 823
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 407,
-    "number": 407,
+    "next": 408,
+    "prev": 406,
     "first_root": 824
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 408,
-    "number": 408,
+    "next": 409,
+    "prev": 407,
     "first_root": 825
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 409,
-    "number": 409,
+    "next": 410,
+    "prev": 408,
     "first_root": 825
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 410,
-    "number": 410,
+    "next": 411,
+    "prev": 409,
     "first_root": 829
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 411,
-    "number": 411,
+    "next": 412,
+    "prev": 410,
     "first_root": 830
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 412,
-    "number": 412,
+    "next": 413,
+    "prev": 411,
     "first_root": 830
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 413,
-    "number": 413,
+    "next": 414,
+    "prev": 412,
     "first_root": 835
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 414,
-    "number": 414,
+    "next": 415,
+    "prev": 413,
     "first_root": 837
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 415,
-    "number": 415,
+    "next": 416,
+    "prev": 414,
     "first_root": 838
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 416,
-    "number": 416,
+    "next": 417,
+    "prev": 415,
     "first_root": 839
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 417,
-    "number": 417,
+    "next": 418,
+    "prev": 416,
     "first_root": 839
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 418,
-    "number": 418,
+    "next": 419,
+    "prev": 417,
     "first_root": 844
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 419,
-    "number": 419,
+    "next": 420,
+    "prev": 418,
     "first_root": 848
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 420,
-    "number": 420,
+    "next": 421,
+    "prev": 419,
     "first_root": 849
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 421,
-    "number": 421,
+    "next": 422,
+    "prev": 420,
     "first_root": 851
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 422,
-    "number": 422,
+    "next": 423,
+    "prev": 421,
     "first_root": 854
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 423,
-    "number": 423,
+    "next": 424,
+    "prev": 422,
     "first_root": 854
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 424,
-    "number": 424,
+    "next": 425,
+    "prev": 423,
     "first_root": 854
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 425,
-    "number": 425,
+    "next": 426,
+    "prev": 424,
     "first_root": 854
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 426,
-    "number": 426,
+    "next": 427,
+    "prev": 425,
     "first_root": 857
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 427,
-    "number": 427,
+    "next": 428,
+    "prev": 426,
     "first_root": 859
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 428,
-    "number": 428,
+    "next": 429,
+    "prev": 427,
     "first_root": 862
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 429,
-    "number": 429,
+    "next": 430,
+    "prev": 428,
     "first_root": 867
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 430,
-    "number": 430,
+    "next": 431,
+    "prev": 429,
     "first_root": 868
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 431,
-    "number": 431,
+    "next": 432,
+    "prev": 430,
     "first_root": 869
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 432,
-    "number": 432,
+    "next": 433,
+    "prev": 431,
     "first_root": 871
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 433,
-    "number": 433,
+    "next": 434,
+    "prev": 432,
     "first_root": 871
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 434,
-    "number": 434,
+    "next": 435,
+    "prev": 433,
     "first_root": 872
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 435,
-    "number": 435,
+    "next": 436,
+    "prev": 434,
     "first_root": 872
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 436,
-    "number": 436,
+    "next": 437,
+    "prev": 435,
     "first_root": 873
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 437,
-    "number": 437,
+    "next": 438,
+    "prev": 436,
     "first_root": 876
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 438,
-    "number": 438,
+    "next": 439,
+    "prev": 437,
     "first_root": 878
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 439,
-    "number": 439,
+    "next": 440,
+    "prev": 438,
     "first_root": 880
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 440,
-    "number": 440,
+    "next": 441,
+    "prev": 439,
     "first_root": 880
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 441,
-    "number": 441,
+    "next": 442,
+    "prev": 440,
     "first_root": 881
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 442,
-    "number": 442,
+    "next": 443,
+    "prev": 441,
     "first_root": 882
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 443,
-    "number": 443,
+    "next": 444,
+    "prev": 442,
     "first_root": 882
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 444,
-    "number": 444,
+    "next": 445,
+    "prev": 443,
     "first_root": 883
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 445,
-    "number": 445,
+    "next": 446,
+    "prev": 444,
     "first_root": 887
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 446,
-    "number": 446,
+    "next": 447,
+    "prev": 445,
     "first_root": 888
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 447,
-    "number": 447,
+    "next": 448,
+    "prev": 446,
     "first_root": 888
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 448,
-    "number": 448,
+    "next": 449,
+    "prev": 447,
     "first_root": 889
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 449,
-    "number": 449,
+    "next": 450,
+    "prev": 448,
     "first_root": 889
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 450,
-    "number": 450,
+    "next": 451,
+    "prev": 449,
     "first_root": 894
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 451,
-    "number": 451,
+    "next": 452,
+    "prev": 450,
     "first_root": 895
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 452,
-    "number": 452,
+    "next": 453,
+    "prev": 451,
     "first_root": 895
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 453,
-    "number": 453,
+    "next": 454,
+    "prev": 452,
     "first_root": 897
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 454,
-    "number": 454,
+    "next": 455,
+    "prev": 453,
     "first_root": 897
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 455,
-    "number": 455,
+    "next": 456,
+    "prev": 454,
     "first_root": 897
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 456,
-    "number": 456,
+    "next": 457,
+    "prev": 455,
     "first_root": 900
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 457,
-    "number": 457,
+    "next": 458,
+    "prev": 456,
     "first_root": 901
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 458,
-    "number": 458,
+    "next": 459,
+    "prev": 457,
     "first_root": 901
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 459,
-    "number": 459,
+    "next": 460,
+    "prev": 458,
     "first_root": 903
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 460,
-    "number": 460,
+    "next": 461,
+    "prev": 459,
     "first_root": 907
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 461,
-    "number": 461,
+    "next": 462,
+    "prev": 460,
     "first_root": 910
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 462,
-    "number": 462,
+    "next": 463,
+    "prev": 461,
     "first_root": 914
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 463,
-    "number": 463,
+    "next": 464,
+    "prev": 462,
     "first_root": 914
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 464,
-    "number": 464,
+    "next": 465,
+    "prev": 463,
     "first_root": 915
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 465,
-    "number": 465,
+    "next": 466,
+    "prev": 464,
     "first_root": 918
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 466,
-    "number": 466,
+    "next": 467,
+    "prev": 465,
     "first_root": 918
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 467,
-    "number": 467,
+    "next": 468,
+    "prev": 466,
     "first_root": 918
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 468,
-    "number": 468,
+    "next": 469,
+    "prev": 467,
     "first_root": 921
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 469,
-    "number": 469,
+    "next": 470,
+    "prev": 468,
     "first_root": 922
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 470,
-    "number": 470,
+    "next": 471,
+    "prev": 469,
     "first_root": 925
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 471,
-    "number": 471,
+    "next": 472,
+    "prev": 470,
     "first_root": 928
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 472,
-    "number": 472,
+    "next": 473,
+    "prev": 471,
     "first_root": 928
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 473,
-    "number": 473,
+    "next": 474,
+    "prev": 472,
     "first_root": 928
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 474,
-    "number": 474,
+    "next": 475,
+    "prev": 473,
     "first_root": 928
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 475,
-    "number": 475,
+    "next": 476,
+    "prev": 474,
     "first_root": 929
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 476,
-    "number": 476,
+    "next": 477,
+    "prev": 475,
     "first_root": 931
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 477,
-    "number": 477,
+    "next": 478,
+    "prev": 476,
     "first_root": 932
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 478,
-    "number": 478,
+    "next": 479,
+    "prev": 477,
     "first_root": 932
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 479,
-    "number": 479,
+    "next": 480,
+    "prev": 478,
     "first_root": 932
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 480,
-    "number": 480,
+    "next": 481,
+    "prev": 479,
     "first_root": 935
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 481,
-    "number": 481,
+    "next": 482,
+    "prev": 480,
     "first_root": 935
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 482,
-    "number": 482,
+    "next": 483,
+    "prev": 481,
     "first_root": 935
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 483,
-    "number": 483,
+    "next": 484,
+    "prev": 482,
     "first_root": 937
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 484,
-    "number": 484,
+    "next": 485,
+    "prev": 483,
     "first_root": 940
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 485,
-    "number": 485,
+    "next": 486,
+    "prev": 484,
     "first_root": 946
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 486,
-    "number": 486,
+    "next": 487,
+    "prev": 485,
     "first_root": 946
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 487,
-    "number": 487,
+    "next": 488,
+    "prev": 486,
     "first_root": 949
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 488,
-    "number": 488,
+    "next": 489,
+    "prev": 487,
     "first_root": 951
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 489,
-    "number": 489,
+    "next": 490,
+    "prev": 488,
     "first_root": 953
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 490,
-    "number": 490,
+    "next": 491,
+    "prev": 489,
     "first_root": 953
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 491,
-    "number": 491,
+    "next": 492,
+    "prev": 490,
     "first_root": 954
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 492,
-    "number": 492,
+    "next": 493,
+    "prev": 491,
     "first_root": 957
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 493,
-    "number": 493,
+    "next": 494,
+    "prev": 492,
     "first_root": 960
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 494,
-    "number": 494,
+    "next": 495,
+    "prev": 493,
     "first_root": 961
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 495,
-    "number": 495,
+    "next": 496,
+    "prev": 494,
     "first_root": 965
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 496,
-    "number": 496,
+    "next": 497,
+    "prev": 495,
     "first_root": 966
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 497,
-    "number": 497,
+    "next": 498,
+    "prev": 496,
     "first_root": 967
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 498,
-    "number": 498,
+    "next": 499,
+    "prev": 497,
     "first_root": 969
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 499,
-    "number": 499,
+    "next": 500,
+    "prev": 498,
     "first_root": 971
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 500,
-    "number": 500,
+    "next": 501,
+    "prev": 499,
     "first_root": 974
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 501,
-    "number": 501,
+    "next": 502,
+    "prev": 500,
     "first_root": 977
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 502,
-    "number": 502,
+    "next": 503,
+    "prev": 501,
     "first_root": 979
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 503,
-    "number": 503,
+    "next": 504,
+    "prev": 502,
     "first_root": 981
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 504,
-    "number": 504,
+    "next": 505,
+    "prev": 503,
     "first_root": 981
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 505,
-    "number": 505,
+    "next": 506,
+    "prev": 504,
     "first_root": 983
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 506,
-    "number": 506,
+    "next": 507,
+    "prev": 505,
     "first_root": 986
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 507,
-    "number": 507,
+    "next": 508,
+    "prev": 506,
     "first_root": 987
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 508,
-    "number": 508,
+    "next": 509,
+    "prev": 507,
     "first_root": 990
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 509,
-    "number": 509,
+    "next": 510,
+    "prev": 508,
     "first_root": 994
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 510,
-    "number": 510,
+    "next": 511,
+    "prev": 509,
     "first_root": 996
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 511,
-    "number": 511,
+    "next": 512,
+    "prev": 510,
     "first_root": 996
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 512,
-    "number": 512,
+    "next": 513,
+    "prev": 511,
     "first_root": 996
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 513,
-    "number": 513,
+    "next": 514,
+    "prev": 512,
     "first_root": 996
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 514,
-    "number": 514,
+    "next": 515,
+    "prev": 513,
     "first_root": 996
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 515,
-    "number": 515,
+    "next": 516,
+    "prev": 514,
     "first_root": 996
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 516,
-    "number": 516,
+    "next": 517,
+    "prev": 515,
     "first_root": 996
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 517,
-    "number": 517,
+    "next": 518,
+    "prev": 516,
     "first_root": 996
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 518,
-    "number": 518,
+    "next": 519,
+    "prev": 517,
     "first_root": 997
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 519,
-    "number": 519,
+    "next": 520,
+    "prev": 518,
     "first_root": 997
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 520,
-    "number": 520,
+    "next": 521,
+    "prev": 519,
     "first_root": 998
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 521,
-    "number": 521,
+    "next": 522,
+    "prev": 520,
     "first_root": 1001
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 522,
-    "number": 522,
+    "next": 523,
+    "prev": 521,
     "first_root": 1003
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 523,
-    "number": 523,
+    "next": 524,
+    "prev": 522,
     "first_root": 1004
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 524,
-    "number": 524,
+    "next": 525,
+    "prev": 523,
     "first_root": 1004
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 525,
-    "number": 525,
+    "next": 526,
+    "prev": 524,
     "first_root": 1004
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 526,
-    "number": 526,
+    "next": 527,
+    "prev": 525,
     "first_root": 1006
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 527,
-    "number": 527,
+    "next": 528,
+    "prev": 526,
     "first_root": 1007
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 528,
-    "number": 528,
+    "next": 529,
+    "prev": 527,
     "first_root": 1007
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 529,
-    "number": 529,
+    "next": 530,
+    "prev": 528,
     "first_root": 1012
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 530,
-    "number": 530,
+    "next": 531,
+    "prev": 529,
     "first_root": 1014
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 531,
-    "number": 531,
+    "next": 532,
+    "prev": 530,
     "first_root": 1018
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 532,
-    "number": 532,
+    "next": 533,
+    "prev": 531,
     "first_root": 1019
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 533,
-    "number": 533,
+    "next": 534,
+    "prev": 532,
     "first_root": 1021
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 534,
-    "number": 534,
+    "next": 535,
+    "prev": 533,
     "first_root": 1026
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 535,
-    "number": 535,
+    "next": 536,
+    "prev": 534,
     "first_root": 1029
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 536,
-    "number": 536,
+    "next": 537,
+    "prev": 535,
     "first_root": 1030
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 537,
-    "number": 537,
+    "next": 538,
+    "prev": 536,
     "first_root": 1031
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 538,
-    "number": 538,
+    "next": 539,
+    "prev": 537,
     "first_root": 1034
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 539,
-    "number": 539,
+    "next": 540,
+    "prev": 538,
     "first_root": 1037
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 540,
-    "number": 540,
+    "next": 541,
+    "prev": 539,
     "first_root": 1038
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 541,
-    "number": 541,
+    "next": 542,
+    "prev": 540,
     "first_root": 1041
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 542,
-    "number": 542,
+    "next": 543,
+    "prev": 541,
     "first_root": 1045
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 543,
-    "number": 543,
+    "next": 544,
+    "prev": 542,
     "first_root": 1045
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 544,
-    "number": 544,
+    "next": 545,
+    "prev": 543,
     "first_root": 1046
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 545,
-    "number": 545,
+    "next": 546,
+    "prev": 544,
     "first_root": 1050
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 546,
-    "number": 546,
+    "next": 547,
+    "prev": 545,
     "first_root": 1052
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 547,
-    "number": 547,
+    "next": 548,
+    "prev": 546,
     "first_root": 1056
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 548,
-    "number": 548,
+    "next": 549,
+    "prev": 547,
     "first_root": 1057
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 549,
-    "number": 549,
+    "next": 550,
+    "prev": 548,
     "first_root": 1062
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 550,
-    "number": 550,
+    "next": 551,
+    "prev": 549,
     "first_root": 1064
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 551,
-    "number": 551,
+    "next": 552,
+    "prev": 550,
     "first_root": 1066
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 552,
-    "number": 552,
+    "next": 553,
+    "prev": 551,
     "first_root": 1067
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 553,
-    "number": 553,
+    "next": 554,
+    "prev": 552,
     "first_root": 1067
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 554,
-    "number": 554,
+    "next": 555,
+    "prev": 553,
     "first_root": 1070
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 555,
-    "number": 555,
+    "next": 556,
+    "prev": 554,
     "first_root": 1072
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 556,
-    "number": 556,
+    "next": 557,
+    "prev": 555,
     "first_root": 1076
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 557,
-    "number": 557,
+    "next": 558,
+    "prev": 556,
     "first_root": 1079
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 558,
-    "number": 558,
+    "next": 559,
+    "prev": 557,
     "first_root": 1082
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 559,
-    "number": 559,
+    "next": 560,
+    "prev": 558,
     "first_root": 1084
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 560,
-    "number": 560,
+    "next": 561,
+    "prev": 559,
     "first_root": 1084
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 561,
-    "number": 561,
+    "next": 562,
+    "prev": 560,
     "first_root": 1090
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 562,
-    "number": 562,
+    "next": 563,
+    "prev": 561,
     "first_root": 1093
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 563,
-    "number": 563,
+    "next": 564,
+    "prev": 562,
     "first_root": 1096
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 564,
-    "number": 564,
+    "next": 565,
+    "prev": 563,
     "first_root": 1098
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 565,
-    "number": 565,
+    "next": 566,
+    "prev": 564,
     "first_root": 1099
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 566,
-    "number": 566,
+    "next": 567,
+    "prev": 565,
     "first_root": 1100
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 567,
-    "number": 567,
+    "next": 568,
+    "prev": 566,
     "first_root": 1100
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 568,
-    "number": 568,
+    "next": 569,
+    "prev": 567,
     "first_root": 1103
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 569,
-    "number": 569,
+    "next": 570,
+    "prev": 568,
     "first_root": 1105
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 570,
-    "number": 570,
+    "next": 571,
+    "prev": 569,
     "first_root": 1105
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 571,
-    "number": 571,
+    "next": 572,
+    "prev": 570,
     "first_root": 1107
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 572,
-    "number": 572,
+    "next": 573,
+    "prev": 571,
     "first_root": 1109
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 573,
-    "number": 573,
+    "next": 574,
+    "prev": 572,
     "first_root": 1109
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 574,
-    "number": 574,
+    "next": 575,
+    "prev": 573,
     "first_root": 1109
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 575,
-    "number": 575,
+    "next": 576,
+    "prev": 574,
     "first_root": 1109
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 576,
-    "number": 576,
+    "next": 577,
+    "prev": 575,
     "first_root": 1115
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 577,
-    "number": 577,
+    "next": 578,
+    "prev": 576,
     "first_root": 1117
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 578,
-    "number": 578,
+    "next": 579,
+    "prev": 577,
     "first_root": 1117
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 579,
-    "number": 579,
+    "next": 580,
+    "prev": 578,
     "first_root": 1117
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 580,
-    "number": 580,
+    "next": 581,
+    "prev": 579,
     "first_root": 1117
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 581,
-    "number": 581,
+    "next": 582,
+    "prev": 580,
     "first_root": 1117
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 582,
-    "number": 582,
+    "next": 583,
+    "prev": 581,
     "first_root": 1117
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 583,
-    "number": 583,
+    "next": 584,
+    "prev": 582,
     "first_root": 1117
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 584,
-    "number": 584,
+    "next": 585,
+    "prev": 583,
     "first_root": 1118
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 585,
-    "number": 585,
+    "next": 586,
+    "prev": 584,
     "first_root": 1120
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 586,
-    "number": 586,
+    "next": 587,
+    "prev": 585,
     "first_root": 1121
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 587,
-    "number": 587,
+    "next": 588,
+    "prev": 586,
     "first_root": 1124
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 588,
-    "number": 588,
+    "next": 589,
+    "prev": 587,
     "first_root": 1127
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 589,
-    "number": 589,
+    "next": 590,
+    "prev": 588,
     "first_root": 1129
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 590,
-    "number": 590,
+    "next": 591,
+    "prev": 589,
     "first_root": 1130
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 591,
-    "number": 591,
+    "next": 592,
+    "prev": 590,
     "first_root": 1132
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 592,
-    "number": 592,
+    "next": 593,
+    "prev": 591,
     "first_root": 1133
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 593,
-    "number": 593,
+    "next": 594,
+    "prev": 592,
     "first_root": 1133
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 594,
-    "number": 594,
+    "next": 595,
+    "prev": 593,
     "first_root": 1135
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 595,
-    "number": 595,
+    "next": 596,
+    "prev": 594,
     "first_root": 1137
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 596,
-    "number": 596,
+    "next": 597,
+    "prev": 595,
     "first_root": 1138
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 597,
-    "number": 597,
+    "next": 598,
+    "prev": 596,
     "first_root": 1141
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 598,
-    "number": 598,
+    "next": 599,
+    "prev": 597,
     "first_root": 1144
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 599,
-    "number": 599,
+    "next": 600,
+    "prev": 598,
     "first_root": 1146
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 600,
-    "number": 600,
+    "next": 601,
+    "prev": 599,
     "first_root": 1148
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 601,
-    "number": 601,
+    "next": 602,
+    "prev": 600,
     "first_root": 1149
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 602,
-    "number": 602,
+    "next": 603,
+    "prev": 601,
     "first_root": 1151
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 603,
-    "number": 603,
+    "next": 604,
+    "prev": 602,
     "first_root": 1151
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 604,
-    "number": 604,
+    "next": 605,
+    "prev": 603,
     "first_root": 1152
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 605,
-    "number": 605,
+    "next": 606,
+    "prev": 604,
     "first_root": 1154
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 606,
-    "number": 606,
+    "next": 607,
+    "prev": 605,
     "first_root": 1157
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 607,
-    "number": 607,
+    "next": 608,
+    "prev": 606,
     "first_root": 1161
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 608,
-    "number": 608,
+    "next": 609,
+    "prev": 607,
     "first_root": 1163
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 609,
-    "number": 609,
+    "next": 610,
+    "prev": 608,
     "first_root": 1165
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 610,
-    "number": 610,
+    "next": 611,
+    "prev": 609,
     "first_root": 1169
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 611,
-    "number": 611,
+    "next": 612,
+    "prev": 610,
     "first_root": 1172
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 612,
-    "number": 612,
+    "next": 613,
+    "prev": 611,
     "first_root": 1173
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 613,
-    "number": 613,
+    "next": 614,
+    "prev": 612,
     "first_root": 1175
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 614,
-    "number": 614,
+    "next": 615,
+    "prev": 613,
     "first_root": 1177
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 615,
-    "number": 615,
+    "next": 616,
+    "prev": 614,
     "first_root": 1179
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 616,
-    "number": 616,
+    "next": 617,
+    "prev": 615,
     "first_root": 1181
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 617,
-    "number": 617,
+    "next": 618,
+    "prev": 616,
     "first_root": 1181
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 618,
-    "number": 618,
+    "next": 619,
+    "prev": 617,
     "first_root": 1185
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 619,
-    "number": 619,
+    "next": 620,
+    "prev": 618,
     "first_root": 1187
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 620,
-    "number": 620,
+    "next": 621,
+    "prev": 619,
     "first_root": 1190
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 621,
-    "number": 621,
+    "next": 622,
+    "prev": 620,
     "first_root": 1192
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 622,
-    "number": 622,
+    "next": 623,
+    "prev": 621,
     "first_root": 1196
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 623,
-    "number": 623,
+    "next": 624,
+    "prev": 622,
     "first_root": 1199
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 624,
-    "number": 624,
+    "next": 625,
+    "prev": 623,
     "first_root": 1203
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 625,
-    "number": 625,
+    "next": 626,
+    "prev": 624,
     "first_root": 1206
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 626,
-    "number": 626,
+    "next": 627,
+    "prev": 625,
     "first_root": 1210
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 627,
-    "number": 627,
+    "next": 628,
+    "prev": 626,
     "first_root": 1213
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 628,
-    "number": 628,
+    "next": 629,
+    "prev": 627,
     "first_root": 1214
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 629,
-    "number": 629,
+    "next": 630,
+    "prev": 628,
     "first_root": 1214
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 630,
-    "number": 630,
+    "next": 631,
+    "prev": 629,
     "first_root": 1218
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 631,
-    "number": 631,
+    "next": 632,
+    "prev": 630,
     "first_root": 1220
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 632,
-    "number": 632,
+    "next": 633,
+    "prev": 631,
     "first_root": 1223
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 633,
-    "number": 633,
+    "next": 634,
+    "prev": 632,
     "first_root": 1228
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 634,
-    "number": 634,
+    "next": 635,
+    "prev": 633,
     "first_root": 1230
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 635,
-    "number": 635,
+    "next": 636,
+    "prev": 634,
     "first_root": 1231
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 636,
-    "number": 636,
+    "next": 637,
+    "prev": 635,
     "first_root": 1233
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 637,
-    "number": 637,
+    "next": 638,
+    "prev": 636,
     "first_root": 1235
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 638,
-    "number": 638,
+    "next": 639,
+    "prev": 637,
     "first_root": 1238
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 639,
-    "number": 639,
+    "next": 640,
+    "prev": 638,
     "first_root": 1241
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 640,
-    "number": 640,
+    "next": 641,
+    "prev": 639,
     "first_root": 1241
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 641,
-    "number": 641,
+    "next": 642,
+    "prev": 640,
     "first_root": 1241
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 642,
-    "number": 642,
+    "next": 643,
+    "prev": 641,
     "first_root": 1244
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 643,
-    "number": 643,
+    "next": 644,
+    "prev": 642,
     "first_root": 1246
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 644,
-    "number": 644,
+    "next": 645,
+    "prev": 643,
     "first_root": 1251
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 645,
-    "number": 645,
+    "next": 646,
+    "prev": 644,
     "first_root": 1252
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 646,
-    "number": 646,
+    "next": 647,
+    "prev": 645,
     "first_root": 1252
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 647,
-    "number": 647,
+    "next": 648,
+    "prev": 646,
     "first_root": 1255
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 648,
-    "number": 648,
+    "next": 649,
+    "prev": 647,
     "first_root": 1256
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 649,
-    "number": 649,
+    "next": 650,
+    "prev": 648,
     "first_root": 1259
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 650,
-    "number": 650,
+    "next": 651,
+    "prev": 649,
     "first_root": 1262
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 651,
-    "number": 651,
+    "next": 652,
+    "prev": 650,
     "first_root": 1266
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 652,
-    "number": 652,
+    "next": 653,
+    "prev": 651,
     "first_root": 1269
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 653,
-    "number": 653,
+    "next": 654,
+    "prev": 652,
     "first_root": 1271
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 654,
-    "number": 654,
+    "next": 655,
+    "prev": 653,
     "first_root": 1276
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 655,
-    "number": 655,
+    "next": 656,
+    "prev": 654,
     "first_root": 1277
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 656,
-    "number": 656,
+    "next": 657,
+    "prev": 655,
     "first_root": 1278
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 657,
-    "number": 657,
+    "next": 658,
+    "prev": 656,
     "first_root": 1278
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 658,
-    "number": 658,
+    "next": 659,
+    "prev": 657,
     "first_root": 1279
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 659,
-    "number": 659,
+    "next": 660,
+    "prev": 658,
     "first_root": 1281
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 660,
-    "number": 660,
+    "next": 661,
+    "prev": 659,
     "first_root": 1281
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 661,
-    "number": 661,
+    "next": 662,
+    "prev": 660,
     "first_root": 1282
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 662,
-    "number": 662,
+    "next": 663,
+    "prev": 661,
     "first_root": 1283
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 663,
-    "number": 663,
+    "next": 664,
+    "prev": 662,
     "first_root": 1287
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 664,
-    "number": 664,
+    "next": 665,
+    "prev": 663,
     "first_root": 1289
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 665,
-    "number": 665,
+    "next": 666,
+    "prev": 664,
     "first_root": 1292
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 666,
-    "number": 666,
+    "next": 667,
+    "prev": 665,
     "first_root": 1296
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 667,
-    "number": 667,
+    "next": 668,
+    "prev": 666,
     "first_root": 1299
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 668,
-    "number": 668,
+    "next": 669,
+    "prev": 667,
     "first_root": 1302
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 669,
-    "number": 669,
+    "next": 670,
+    "prev": 668,
     "first_root": 1306
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 670,
-    "number": 670,
+    "next": 671,
+    "prev": 669,
     "first_root": 1306
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 671,
-    "number": 671,
+    "next": 672,
+    "prev": 670,
     "first_root": 1306
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 672,
-    "number": 672,
+    "next": 673,
+    "prev": 671,
     "first_root": 1306
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 673,
-    "number": 673,
+    "next": 674,
+    "prev": 672,
     "first_root": 1309
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 674,
-    "number": 674,
+    "next": 675,
+    "prev": 673,
     "first_root": 1314
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 675,
-    "number": 675,
+    "next": 676,
+    "prev": 674,
     "first_root": 1317
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 676,
-    "number": 676,
+    "next": 677,
+    "prev": 675,
     "first_root": 1321
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 677,
-    "number": 677,
+    "next": 678,
+    "prev": 676,
     "first_root": 1325
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 678,
-    "number": 678,
+    "next": 679,
+    "prev": 677,
     "first_root": 1326
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 679,
-    "number": 679,
+    "next": 680,
+    "prev": 678,
     "first_root": 1326
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 680,
-    "number": 680,
+    "next": 681,
+    "prev": 679,
     "first_root": 1326
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 681,
-    "number": 681,
+    "next": 682,
+    "prev": 680,
     "first_root": 1326
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 682,
-    "number": 682,
+    "next": 683,
+    "prev": 681,
     "first_root": 1326
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 683,
-    "number": 683,
+    "next": 684,
+    "prev": 682,
     "first_root": 1330
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 684,
-    "number": 684,
+    "next": 685,
+    "prev": 683,
     "first_root": 1336
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 685,
-    "number": 685,
+    "next": 686,
+    "prev": 684,
     "first_root": 1337
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 686,
-    "number": 686,
+    "next": 687,
+    "prev": 685,
     "first_root": 1337
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 687,
-    "number": 687,
+    "next": 688,
+    "prev": 686,
     "first_root": 1339
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 688,
-    "number": 688,
+    "next": 689,
+    "prev": 687,
     "first_root": 1342
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 689,
-    "number": 689,
+    "next": 690,
+    "prev": 688,
     "first_root": 1343
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 690,
-    "number": 690,
+    "next": 691,
+    "prev": 689,
     "first_root": 1346
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 691,
-    "number": 691,
+    "next": 692,
+    "prev": 690,
     "first_root": 1351
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 692,
-    "number": 692,
+    "next": 693,
+    "prev": 691,
     "first_root": 1353
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 693,
-    "number": 693,
+    "next": 694,
+    "prev": 692,
     "first_root": 1354
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 694,
-    "number": 694,
+    "next": 695,
+    "prev": 693,
     "first_root": 1356
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 695,
-    "number": 695,
+    "next": 696,
+    "prev": 694,
     "first_root": 1359
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 696,
-    "number": 696,
+    "next": 697,
+    "prev": 695,
     "first_root": 1360
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 697,
-    "number": 697,
+    "next": 698,
+    "prev": 696,
     "first_root": 1361
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 698,
-    "number": 698,
+    "next": 699,
+    "prev": 697,
     "first_root": 1370
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 699,
-    "number": 699,
+    "next": 700,
+    "prev": 698,
     "first_root": 1374
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 700,
-    "number": 700,
+    "next": 701,
+    "prev": 699,
     "first_root": 1376
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 701,
-    "number": 701,
+    "next": 702,
+    "prev": 700,
     "first_root": 1379
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 702,
-    "number": 702,
+    "next": 703,
+    "prev": 701,
     "first_root": 1382
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 703,
-    "number": 703,
+    "next": 704,
+    "prev": 702,
     "first_root": 1385
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 704,
-    "number": 704,
+    "next": 705,
+    "prev": 703,
     "first_root": 1388
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 705,
-    "number": 705,
+    "next": 706,
+    "prev": 704,
     "first_root": 1392
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 706,
-    "number": 706,
+    "next": 707,
+    "prev": 705,
     "first_root": 1396
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 707,
-    "number": 707,
+    "next": 708,
+    "prev": 706,
     "first_root": 1396
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 708,
-    "number": 708,
+    "next": 709,
+    "prev": 707,
     "first_root": 1396
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 709,
-    "number": 709,
+    "next": 710,
+    "prev": 708,
     "first_root": 1397
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 710,
-    "number": 710,
+    "next": 711,
+    "prev": 709,
     "first_root": 1400
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 711,
-    "number": 711,
+    "next": 712,
+    "prev": 710,
     "first_root": 1402
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 712,
-    "number": 712,
+    "next": 713,
+    "prev": 711,
     "first_root": 1405
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 713,
-    "number": 713,
+    "next": 714,
+    "prev": 712,
     "first_root": 1405
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 714,
-    "number": 714,
+    "next": 715,
+    "prev": 713,
     "first_root": 1405
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 715,
-    "number": 715,
+    "next": 716,
+    "prev": 714,
     "first_root": 1405
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 716,
-    "number": 716,
+    "next": 717,
+    "prev": 715,
     "first_root": 1410
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 717,
-    "number": 717,
+    "next": 718,
+    "prev": 716,
     "first_root": 1410
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 718,
-    "number": 718,
+    "next": 719,
+    "prev": 717,
     "first_root": 1410
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 719,
-    "number": 719,
+    "next": 720,
+    "prev": 718,
     "first_root": 1410
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 720,
-    "number": 720,
+    "next": 721,
+    "prev": 719,
     "first_root": 1410
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 721,
-    "number": 721,
+    "next": 722,
+    "prev": 720,
     "first_root": 1413
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 722,
-    "number": 722,
+    "next": 723,
+    "prev": 721,
     "first_root": 1414
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 723,
-    "number": 723,
+    "next": 724,
+    "prev": 722,
     "first_root": 1419
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 724,
-    "number": 724,
+    "next": 725,
+    "prev": 723,
     "first_root": 1419
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 725,
-    "number": 725,
+    "next": 726,
+    "prev": 724,
     "first_root": 1420
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 726,
-    "number": 726,
+    "next": 727,
+    "prev": 725,
     "first_root": 1424
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 727,
-    "number": 727,
+    "next": 728,
+    "prev": 726,
     "first_root": 1429
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 728,
-    "number": 728,
+    "next": 729,
+    "prev": 727,
     "first_root": 1431
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 729,
-    "number": 729,
+    "next": 730,
+    "prev": 728,
     "first_root": 1431
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 730,
-    "number": 730,
+    "next": 731,
+    "prev": 729,
     "first_root": 1433
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 731,
-    "number": 731,
+    "next": 732,
+    "prev": 730,
     "first_root": 1434
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 732,
-    "number": 732,
+    "next": 733,
+    "prev": 731,
     "first_root": 1438
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 733,
-    "number": 733,
+    "next": 734,
+    "prev": 732,
     "first_root": 1439
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 734,
-    "number": 734,
+    "next": 735,
+    "prev": 733,
     "first_root": 1444
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 735,
-    "number": 735,
+    "next": 736,
+    "prev": 734,
     "first_root": 1445
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 736,
-    "number": 736,
+    "next": 737,
+    "prev": 735,
     "first_root": 1450
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 737,
-    "number": 737,
+    "next": 738,
+    "prev": 736,
     "first_root": 1450
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 738,
-    "number": 738,
+    "next": 739,
+    "prev": 737,
     "first_root": 1452
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 739,
-    "number": 739,
+    "next": 740,
+    "prev": 738,
     "first_root": 1452
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 740,
-    "number": 740,
+    "next": 741,
+    "prev": 739,
     "first_root": 1454
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 741,
-    "number": 741,
+    "next": 742,
+    "prev": 740,
     "first_root": 1456
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 742,
-    "number": 742,
+    "next": 743,
+    "prev": 741,
     "first_root": 1462
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 743,
-    "number": 743,
+    "next": 744,
+    "prev": 742,
     "first_root": 1464
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 744,
-    "number": 744,
+    "next": 745,
+    "prev": 743,
     "first_root": 1465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 745,
-    "number": 745,
+    "next": 746,
+    "prev": 744,
     "first_root": 1465
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 746,
-    "number": 746,
+    "next": 747,
+    "prev": 745,
     "first_root": 1468
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 747,
-    "number": 747,
+    "next": 748,
+    "prev": 746,
     "first_root": 1471
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 748,
-    "number": 748,
+    "next": 749,
+    "prev": 747,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 749,
-    "number": 749,
+    "next": 750,
+    "prev": 748,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 750,
-    "number": 750,
+    "next": 751,
+    "prev": 749,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 751,
-    "number": 751,
+    "next": 752,
+    "prev": 750,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 752,
-    "number": 752,
+    "next": 753,
+    "prev": 751,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 753,
-    "number": 753,
+    "next": 754,
+    "prev": 752,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 754,
-    "number": 754,
+    "next": 755,
+    "prev": 753,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 755,
-    "number": 755,
+    "next": 756,
+    "prev": 754,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 756,
-    "number": 756,
+    "next": 757,
+    "prev": 755,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 757,
-    "number": 757,
+    "next": 758,
+    "prev": 756,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 758,
-    "number": 758,
+    "next": 759,
+    "prev": 757,
     "first_root": 1473
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 759,
-    "number": 759,
+    "next": 760,
+    "prev": 758,
     "first_root": 1475
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 760,
-    "number": 760,
+    "next": 761,
+    "prev": 759,
     "first_root": 1477
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 761,
-    "number": 761,
+    "next": 762,
+    "prev": 760,
     "first_root": 1480
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 762,
-    "number": 762,
+    "next": 763,
+    "prev": 761,
     "first_root": 1480
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 763,
-    "number": 763,
+    "next": 764,
+    "prev": 762,
     "first_root": 1486
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 764,
-    "number": 764,
+    "next": 765,
+    "prev": 763,
     "first_root": 1486
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 765,
-    "number": 765,
+    "next": 766,
+    "prev": 764,
     "first_root": 1488
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 766,
-    "number": 766,
+    "next": 767,
+    "prev": 765,
     "first_root": 1489
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 767,
-    "number": 767,
+    "next": 768,
+    "prev": 766,
     "first_root": 1490
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 768,
-    "number": 768,
+    "next": 769,
+    "prev": 767,
     "first_root": 1490
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 769,
-    "number": 769,
+    "next": 770,
+    "prev": 768,
     "first_root": 1490
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 770,
-    "number": 770,
+    "next": 771,
+    "prev": 769,
     "first_root": 1493
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 771,
-    "number": 771,
+    "next": 772,
+    "prev": 770,
     "first_root": 1496
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 772,
-    "number": 772,
+    "next": 773,
+    "prev": 771,
     "first_root": 1500
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 773,
-    "number": 773,
+    "next": 774,
+    "prev": 772,
     "first_root": 1500
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 774,
-    "number": 774,
+    "next": 775,
+    "prev": 773,
     "first_root": 1500
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 775,
-    "number": 775,
+    "next": 776,
+    "prev": 774,
     "first_root": 1501
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 776,
-    "number": 776,
+    "next": 777,
+    "prev": 775,
     "first_root": 1502
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 777,
-    "number": 777,
+    "next": 778,
+    "prev": 776,
     "first_root": 1505
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 778,
-    "number": 778,
+    "next": 779,
+    "prev": 777,
     "first_root": 1509
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 779,
-    "number": 779,
+    "next": 780,
+    "prev": 778,
     "first_root": 1513
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 780,
-    "number": 780,
+    "next": 781,
+    "prev": 779,
     "first_root": 1515
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 781,
-    "number": 781,
+    "next": 782,
+    "prev": 780,
     "first_root": 1519
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 782,
-    "number": 782,
+    "next": 783,
+    "prev": 781,
     "first_root": 1523
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 783,
-    "number": 783,
+    "next": 784,
+    "prev": 782,
     "first_root": 1526
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 784,
-    "number": 784,
+    "next": 785,
+    "prev": 783,
     "first_root": 1527
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 785,
-    "number": 785,
+    "next": 786,
+    "prev": 784,
     "first_root": 1532
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 786,
-    "number": 786,
+    "next": 787,
+    "prev": 785,
     "first_root": 1535
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 787,
-    "number": 787,
+    "next": 788,
+    "prev": 786,
     "first_root": 1538
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 788,
-    "number": 788,
+    "next": 789,
+    "prev": 787,
     "first_root": 1541
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 789,
-    "number": 789,
+    "next": 790,
+    "prev": 788,
     "first_root": 1542
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 790,
-    "number": 790,
+    "next": 791,
+    "prev": 789,
     "first_root": 1545
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 791,
-    "number": 791,
+    "next": 792,
+    "prev": 790,
     "first_root": 1550
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 792,
-    "number": 792,
+    "next": 793,
+    "prev": 791,
     "first_root": 1553
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 793,
-    "number": 793,
+    "next": 794,
+    "prev": 792,
     "first_root": 1557
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 794,
-    "number": 794,
+    "next": 795,
+    "prev": 793,
     "first_root": 1557
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 795,
-    "number": 795,
+    "next": 796,
+    "prev": 794,
     "first_root": 1557
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 796,
-    "number": 796,
+    "next": 797,
+    "prev": 795,
     "first_root": 1560
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 797,
-    "number": 797,
+    "next": 798,
+    "prev": 796,
     "first_root": 1560
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 798,
-    "number": 798,
+    "next": 799,
+    "prev": 797,
     "first_root": 1562
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 799,
-    "number": 799,
+    "next": 800,
+    "prev": 798,
     "first_root": 1566
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 800,
-    "number": 800,
+    "next": 801,
+    "prev": 799,
     "first_root": 1568
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 801,
-    "number": 801,
+    "next": 802,
+    "prev": 800,
     "first_root": 1573
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 802,
-    "number": 802,
+    "next": 803,
+    "prev": 801,
     "first_root": 1577
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 803,
-    "number": 803,
+    "next": 804,
+    "prev": 802,
     "first_root": 1582
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 804,
-    "number": 804,
+    "next": 805,
+    "prev": 803,
     "first_root": 1585
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 805,
-    "number": 805,
+    "next": 806,
+    "prev": 804,
     "first_root": 1586
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 806,
-    "number": 806,
+    "next": 807,
+    "prev": 805,
     "first_root": 1590
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 807,
-    "number": 807,
+    "next": 808,
+    "prev": 806,
     "first_root": 1597
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 808,
-    "number": 808,
+    "next": 809,
+    "prev": 807,
     "first_root": 1602
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 809,
-    "number": 809,
+    "next": 810,
+    "prev": 808,
     "first_root": 1606
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 810,
-    "number": 810,
+    "next": 811,
+    "prev": 809,
     "first_root": 1610
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 811,
-    "number": 811,
+    "next": 812,
+    "prev": 810,
     "first_root": 1612
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 812,
-    "number": 812,
+    "next": 813,
+    "prev": 811,
     "first_root": 1614
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 813,
-    "number": 813,
+    "next": 814,
+    "prev": 812,
     "first_root": 1617
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 814,
-    "number": 814,
+    "next": 815,
+    "prev": 813,
     "first_root": 1619
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 815,
-    "number": 815,
+    "next": 816,
+    "prev": 814,
     "first_root": 1620
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 816,
-    "number": 816,
+    "next": 817,
+    "prev": 815,
     "first_root": 1620
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 817,
-    "number": 817,
+    "next": 818,
+    "prev": 816,
     "first_root": 1620
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 818,
-    "number": 818,
+    "next": 819,
+    "prev": 817,
     "first_root": 1620
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 819,
-    "number": 819,
+    "next": 820,
+    "prev": 818,
     "first_root": 1623
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 820,
-    "number": 820,
+    "next": 821,
+    "prev": 819,
     "first_root": 1626
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 821,
-    "number": 821,
+    "next": 822,
+    "prev": 820,
     "first_root": 1631
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 822,
-    "number": 822,
+    "next": 823,
+    "prev": 821,
     "first_root": 1638
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 823,
-    "number": 823,
+    "next": 824,
+    "prev": 822,
     "first_root": 1640
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 824,
-    "number": 824,
+    "next": 825,
+    "prev": 823,
     "first_root": 1641
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 825,
-    "number": 825,
+    "next": 826,
+    "prev": 824,
     "first_root": 1646
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 826,
-    "number": 826,
+    "next": 827,
+    "prev": 825,
     "first_root": 1648
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 827,
-    "number": 827,
+    "next": 828,
+    "prev": 826,
     "first_root": 1655
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 828,
-    "number": 828,
+    "next": 829,
+    "prev": 827,
     "first_root": 1659
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 829,
-    "number": 829,
+    "next": 830,
+    "prev": 828,
     "first_root": 1661
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 830,
-    "number": 830,
+    "next": 831,
+    "prev": 829,
     "first_root": 1665
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 831,
-    "number": 831,
+    "next": 832,
+    "prev": 830,
     "first_root": 1670
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 832,
-    "number": 832,
+    "next": 833,
+    "prev": 831,
     "first_root": 1675
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 833,
-    "number": 833,
+    "next": 834,
+    "prev": 832,
     "first_root": 1676
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 834,
-    "number": 834,
+    "next": 835,
+    "prev": 833,
     "first_root": 1678
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 835,
-    "number": 835,
+    "next": 836,
+    "prev": 834,
     "first_root": 1678
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 836,
-    "number": 836,
+    "next": 837,
+    "prev": 835,
     "first_root": 1680
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 837,
-    "number": 837,
+    "next": 838,
+    "prev": 836,
     "first_root": 1684
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 838,
-    "number": 838,
+    "next": 839,
+    "prev": 837,
     "first_root": 1687
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 839,
-    "number": 839,
+    "next": 840,
+    "prev": 838,
     "first_root": 1691
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 840,
-    "number": 840,
+    "next": 841,
+    "prev": 839,
     "first_root": 1698
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 841,
-    "number": 841,
+    "next": 842,
+    "prev": 840,
     "first_root": 1702
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 842,
-    "number": 842,
+    "next": 843,
+    "prev": 841,
     "first_root": 1702
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 843,
-    "number": 843,
+    "next": 844,
+    "prev": 842,
     "first_root": 1706
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 844,
-    "number": 844,
+    "next": 845,
+    "prev": 843,
     "first_root": 1708
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 845,
-    "number": 845,
+    "next": 846,
+    "prev": 844,
     "first_root": 1710
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 846,
-    "number": 846,
+    "next": 847,
+    "prev": 845,
     "first_root": 1712
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 847,
-    "number": 847,
+    "next": 848,
+    "prev": 846,
     "first_root": 1718
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 848,
-    "number": 848,
+    "next": 849,
+    "prev": 847,
     "first_root": 1721
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 849,
-    "number": 849,
+    "next": 850,
+    "prev": 848,
     "first_root": 1724
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 850,
-    "number": 850,
+    "next": 851,
+    "prev": 849,
     "first_root": 1729
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 851,
-    "number": 851,
+    "next": 852,
+    "prev": 850,
     "first_root": 1731
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 852,
-    "number": 852,
+    "next": 853,
+    "prev": 851,
     "first_root": 1737
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 853,
-    "number": 853,
+    "next": 854,
+    "prev": 852,
     "first_root": 1741
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 854,
-    "number": 854,
+    "next": 855,
+    "prev": 853,
     "first_root": 1744
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 855,
-    "number": 855,
+    "next": 856,
+    "prev": 854,
     "first_root": 1748
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 856,
-    "number": 856,
+    "next": 857,
+    "prev": 855,
     "first_root": 1755
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 857,
-    "number": 857,
+    "next": 858,
+    "prev": 856,
     "first_root": 1761
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 858,
-    "number": 858,
+    "next": 859,
+    "prev": 857,
     "first_root": 1766
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 859,
-    "number": 859,
+    "next": 860,
+    "prev": 858,
     "first_root": 1768
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 860,
-    "number": 860,
+    "next": 861,
+    "prev": 859,
     "first_root": 1771
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 861,
-    "number": 861,
+    "next": 862,
+    "prev": 860,
     "first_root": 1777
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 862,
-    "number": 862,
+    "next": 863,
+    "prev": 861,
     "first_root": 1780
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 863,
-    "number": 863,
+    "next": 864,
+    "prev": 862,
     "first_root": 1786
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 864,
-    "number": 864,
+    "next": 865,
+    "prev": 863,
     "first_root": 1788
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 865,
-    "number": 865,
+    "next": 866,
+    "prev": 864,
     "first_root": 1789
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 866,
-    "number": 866,
+    "next": 867,
+    "prev": 865,
     "first_root": 1794
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 867,
-    "number": 867,
+    "next": 868,
+    "prev": 866,
     "first_root": 1797
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 868,
-    "number": 868,
+    "next": 869,
+    "prev": 867,
     "first_root": 1798
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 869,
-    "number": 869,
+    "next": 870,
+    "prev": 868,
     "first_root": 1802
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 870,
-    "number": 870,
+    "next": 871,
+    "prev": 869,
     "first_root": 1802
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 871,
-    "number": 871,
+    "next": 872,
+    "prev": 870,
     "first_root": 1804
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 872,
-    "number": 872,
+    "next": 873,
+    "prev": 871,
     "first_root": 1804
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 873,
-    "number": 873,
+    "next": 874,
+    "prev": 872,
     "first_root": 1804
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 874,
-    "number": 874,
+    "next": 875,
+    "prev": 873,
     "first_root": 1806
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 875,
-    "number": 875,
+    "next": 876,
+    "prev": 874,
     "first_root": 1807
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 876,
-    "number": 876,
+    "next": 877,
+    "prev": 875,
     "first_root": 1811
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 877,
-    "number": 877,
+    "next": 878,
+    "prev": 876,
     "first_root": 1812
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 878,
-    "number": 878,
+    "next": 879,
+    "prev": 877,
     "first_root": 1812
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 879,
-    "number": 879,
+    "next": 880,
+    "prev": 878,
     "first_root": 1812
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 880,
-    "number": 880,
+    "next": 881,
+    "prev": 879,
     "first_root": 1814
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 881,
-    "number": 881,
+    "next": 882,
+    "prev": 880,
     "first_root": 1821
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 882,
-    "number": 882,
+    "next": 883,
+    "prev": 881,
     "first_root": 1823
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 883,
-    "number": 883,
+    "next": 884,
+    "prev": 882,
     "first_root": 1827
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 884,
-    "number": 884,
+    "next": 885,
+    "prev": 883,
     "first_root": 1829
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 885,
-    "number": 885,
+    "next": 886,
+    "prev": 884,
     "first_root": 1831
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 886,
-    "number": 886,
+    "next": 887,
+    "prev": 885,
     "first_root": 1834
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 887,
-    "number": 887,
+    "next": 888,
+    "prev": 886,
     "first_root": 1838
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 888,
-    "number": 888,
+    "next": 889,
+    "prev": 887,
     "first_root": 1844
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 889,
-    "number": 889,
+    "next": 890,
+    "prev": 888,
     "first_root": 1845
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 890,
-    "number": 890,
+    "next": 891,
+    "prev": 889,
     "first_root": 1849
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 891,
-    "number": 891,
+    "next": 892,
+    "prev": 890,
     "first_root": 1857
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 892,
-    "number": 892,
+    "next": 893,
+    "prev": 891,
     "first_root": 1860
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 893,
-    "number": 893,
+    "next": 894,
+    "prev": 892,
     "first_root": 1864
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 894,
-    "number": 894,
+    "next": 895,
+    "prev": 893,
     "first_root": 1867
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 895,
-    "number": 895,
+    "next": 896,
+    "prev": 894,
     "first_root": 1867
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 896,
-    "number": 896,
+    "next": 897,
+    "prev": 895,
     "first_root": 1868
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 897,
-    "number": 897,
+    "next": 898,
+    "prev": 896,
     "first_root": 1869
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 898,
-    "number": 898,
+    "next": 899,
+    "prev": 897,
     "first_root": 1869
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 899,
-    "number": 899,
+    "next": 900,
+    "prev": 898,
     "first_root": 1871
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 900,
-    "number": 900,
+    "next": 901,
+    "prev": 899,
     "first_root": 1871
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 901,
-    "number": 901,
+    "next": 902,
+    "prev": 900,
     "first_root": 1875
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 902,
-    "number": 902,
+    "next": 903,
+    "prev": 901,
     "first_root": 1878
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 903,
-    "number": 903,
+    "next": 904,
+    "prev": 902,
     "first_root": 1885
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 904,
-    "number": 904,
+    "next": 905,
+    "prev": 903,
     "first_root": 1888
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 905,
-    "number": 905,
+    "next": 906,
+    "prev": 904,
     "first_root": 1893
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 906,
-    "number": 906,
+    "next": 907,
+    "prev": 905,
     "first_root": 1895
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 907,
-    "number": 907,
+    "next": 908,
+    "prev": 906,
     "first_root": 1895
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 908,
-    "number": 908,
+    "next": 909,
+    "prev": 907,
     "first_root": 1895
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 909,
-    "number": 909,
+    "next": 910,
+    "prev": 908,
     "first_root": 1895
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 910,
-    "number": 910,
+    "next": 911,
+    "prev": 909,
     "first_root": 1897
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 911,
-    "number": 911,
+    "next": 912,
+    "prev": 910,
     "first_root": 1897
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 912,
-    "number": 912,
+    "next": 913,
+    "prev": 911,
     "first_root": 1898
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 913,
-    "number": 913,
+    "next": 914,
+    "prev": 912,
     "first_root": 1898
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 914,
-    "number": 914,
+    "next": 915,
+    "prev": 913,
     "first_root": 1901
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 915,
-    "number": 915,
+    "next": 916,
+    "prev": 914,
     "first_root": 1902
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 916,
-    "number": 916,
+    "next": 917,
+    "prev": 915,
     "first_root": 1905
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 917,
-    "number": 917,
+    "next": 918,
+    "prev": 916,
     "first_root": 1905
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 918,
-    "number": 918,
+    "next": 919,
+    "prev": 917,
     "first_root": 1909
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 919,
-    "number": 919,
+    "next": 920,
+    "prev": 918,
     "first_root": 1911
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 920,
-    "number": 920,
+    "next": 921,
+    "prev": 919,
     "first_root": 1914
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 921,
-    "number": 921,
+    "next": 922,
+    "prev": 920,
     "first_root": 1919
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 922,
-    "number": 922,
+    "next": 923,
+    "prev": 921,
     "first_root": 1922
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 923,
-    "number": 923,
+    "next": 924,
+    "prev": 922,
     "first_root": 1928
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 924,
-    "number": 924,
+    "next": 925,
+    "prev": 923,
     "first_root": 1930
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 925,
-    "number": 925,
+    "next": 926,
+    "prev": 924,
     "first_root": 1930
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 926,
-    "number": 926,
+    "next": 927,
+    "prev": 925,
     "first_root": 1932
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 927,
-    "number": 927,
+    "next": 928,
+    "prev": 926,
     "first_root": 1932
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 928,
-    "number": 928,
+    "next": 929,
+    "prev": 927,
     "first_root": 1932
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 929,
-    "number": 929,
+    "next": 930,
+    "prev": 928,
     "first_root": 1934
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 930,
-    "number": 930,
+    "next": 931,
+    "prev": 929,
     "first_root": 1938
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 931,
-    "number": 931,
+    "next": 932,
+    "prev": 930,
     "first_root": 1942
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 932,
-    "number": 932,
+    "next": 933,
+    "prev": 931,
     "first_root": 1944
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 933,
-    "number": 933,
+    "next": 934,
+    "prev": 932,
     "first_root": 1945
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 934,
-    "number": 934,
+    "next": 935,
+    "prev": 933,
     "first_root": 1951
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 935,
-    "number": 935,
+    "next": 936,
+    "prev": 934,
     "first_root": 1952
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 936,
-    "number": 936,
+    "next": 937,
+    "prev": 935,
     "first_root": 1958
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 937,
-    "number": 937,
+    "next": 938,
+    "prev": 936,
     "first_root": 1960
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 938,
-    "number": 938,
+    "next": 939,
+    "prev": 937,
     "first_root": 1962
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 939,
-    "number": 939,
+    "next": 940,
+    "prev": 938,
     "first_root": 1963
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 940,
-    "number": 940,
+    "next": 941,
+    "prev": 939,
     "first_root": 1966
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 941,
-    "number": 941,
+    "next": 942,
+    "prev": 940,
     "first_root": 1969
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 942,
-    "number": 942,
+    "next": 943,
+    "prev": 941,
     "first_root": 1974
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 943,
-    "number": 943,
+    "next": 944,
+    "prev": 942,
     "first_root": 1977
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 944,
-    "number": 944,
+    "next": 945,
+    "prev": 943,
     "first_root": 1982
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 945,
-    "number": 945,
+    "next": 946,
+    "prev": 944,
     "first_root": 1983
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 946,
-    "number": 946,
+    "next": 947,
+    "prev": 945,
     "first_root": 1984
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 947,
-    "number": 947,
+    "next": 948,
+    "prev": 946,
     "first_root": 1988
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 948,
-    "number": 948,
+    "next": 949,
+    "prev": 947,
     "first_root": 1988
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 949,
-    "number": 949,
+    "next": 950,
+    "prev": 948,
     "first_root": 1989
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 950,
-    "number": 950,
+    "next": 951,
+    "prev": 949,
     "first_root": 1993
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 951,
-    "number": 951,
+    "next": 952,
+    "prev": 950,
     "first_root": 1995
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 952,
-    "number": 952,
+    "next": 953,
+    "prev": 951,
     "first_root": 2001
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 953,
-    "number": 953,
+    "next": 954,
+    "prev": 952,
     "first_root": 2003
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 954,
-    "number": 954,
+    "next": 955,
+    "prev": 953,
     "first_root": 2007
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 955,
-    "number": 955,
+    "next": 956,
+    "prev": 954,
     "first_root": 2012
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 956,
-    "number": 956,
+    "next": 957,
+    "prev": 955,
     "first_root": 2014
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 957,
-    "number": 957,
+    "next": 958,
+    "prev": 956,
     "first_root": 2017
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 958,
-    "number": 958,
+    "next": 959,
+    "prev": 957,
     "first_root": 2023
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 959,
-    "number": 959,
+    "next": 960,
+    "prev": 958,
     "first_root": 2027
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 960,
-    "number": 960,
+    "next": 961,
+    "prev": 959,
     "first_root": 2032
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 961,
-    "number": 961,
+    "next": 962,
+    "prev": 960,
     "first_root": 2034
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 962,
-    "number": 962,
+    "next": 963,
+    "prev": 961,
     "first_root": 2039
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 963,
-    "number": 963,
+    "next": 964,
+    "prev": 962,
     "first_root": 2039
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 964,
-    "number": 964,
+    "next": 965,
+    "prev": 963,
     "first_root": 2039
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 965,
-    "number": 965,
+    "next": 966,
+    "prev": 964,
     "first_root": 2045
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 966,
-    "number": 966,
+    "next": 967,
+    "prev": 965,
     "first_root": 2051
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 967,
-    "number": 967,
+    "next": 968,
+    "prev": 966,
     "first_root": 2054
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 968,
-    "number": 968,
+    "next": 969,
+    "prev": 967,
     "first_root": 2060
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 969,
-    "number": 969,
+    "next": 970,
+    "prev": 968,
     "first_root": 2062
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 970,
-    "number": 970,
+    "next": 971,
+    "prev": 969,
     "first_root": 2063
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 971,
-    "number": 971,
+    "next": 972,
+    "prev": 970,
     "first_root": 2066
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 972,
-    "number": 972,
+    "next": 973,
+    "prev": 971,
     "first_root": 2068
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 973,
-    "number": 973,
+    "next": 974,
+    "prev": 972,
     "first_root": 2072
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 974,
-    "number": 974,
+    "next": 975,
+    "prev": 973,
     "first_root": 2078
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 975,
-    "number": 975,
+    "next": 976,
+    "prev": 974,
     "first_root": 2080
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 976,
-    "number": 976,
+    "next": 977,
+    "prev": 975,
     "first_root": 2085
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 977,
-    "number": 977,
+    "next": 978,
+    "prev": 976,
     "first_root": 2088
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 978,
-    "number": 978,
+    "next": 979,
+    "prev": 977,
     "first_root": 2088
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 979,
-    "number": 979,
+    "next": 980,
+    "prev": 978,
     "first_root": 2092
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 980,
-    "number": 980,
+    "next": 981,
+    "prev": 979,
     "first_root": 2095
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 981,
-    "number": 981,
+    "next": 982,
+    "prev": 980,
     "first_root": 2097
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 982,
-    "number": 982,
+    "next": 983,
+    "prev": 981,
     "first_root": 2097
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 983,
-    "number": 983,
+    "next": 984,
+    "prev": 982,
     "first_root": 2101
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 984,
-    "number": 984,
+    "next": 985,
+    "prev": 983,
     "first_root": 2102
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 985,
-    "number": 985,
+    "next": 986,
+    "prev": 984,
     "first_root": 2105
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 986,
-    "number": 986,
+    "next": 987,
+    "prev": 985,
     "first_root": 2108
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 987,
-    "number": 987,
+    "next": 988,
+    "prev": 986,
     "first_root": 2112
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 988,
-    "number": 988,
+    "next": 989,
+    "prev": 987,
     "first_root": 2112
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 989,
-    "number": 989,
+    "next": 990,
+    "prev": 988,
     "first_root": 2112
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 990,
-    "number": 990,
+    "next": 991,
+    "prev": 989,
     "first_root": 2115
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 991,
-    "number": 991,
+    "next": 992,
+    "prev": 990,
     "first_root": 2116
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 992,
-    "number": 992,
+    "next": 993,
+    "prev": 991,
     "first_root": 2117
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 993,
-    "number": 993,
+    "next": 994,
+    "prev": 992,
     "first_root": 2122
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 994,
-    "number": 994,
+    "next": 995,
+    "prev": 993,
     "first_root": 2124
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 995,
-    "number": 995,
+    "next": 996,
+    "prev": 994,
     "first_root": 2127
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 996,
-    "number": 996,
+    "next": 997,
+    "prev": 995,
     "first_root": 2130
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 997,
-    "number": 997,
+    "next": 998,
+    "prev": 996,
     "first_root": 2130
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 998,
-    "number": 998,
+    "next": 999,
+    "prev": 997,
     "first_root": 2130
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 999,
-    "number": 999,
+    "next": 1000,
+    "prev": 998,
     "first_root": 2130
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1000,
-    "number": 1000,
+    "next": 1001,
+    "prev": 999,
     "first_root": 2132
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1001,
-    "number": 1001,
+    "next": 1002,
+    "prev": 1000,
     "first_root": 2135
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1002,
-    "number": 1002,
+    "next": 1003,
+    "prev": 1001,
     "first_root": 2138
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1003,
-    "number": 1003,
+    "next": 1004,
+    "prev": 1002,
     "first_root": 2144
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1004,
-    "number": 1004,
+    "next": 1005,
+    "prev": 1003,
     "first_root": 2147
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1005,
-    "number": 1005,
+    "next": 1006,
+    "prev": 1004,
     "first_root": 2150
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1006,
-    "number": 1006,
+    "next": 1007,
+    "prev": 1005,
     "first_root": 2156
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1007,
-    "number": 1007,
+    "next": 1008,
+    "prev": 1006,
     "first_root": 2159
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1008,
-    "number": 1008,
+    "next": 1009,
+    "prev": 1007,
     "first_root": 2160
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1009,
-    "number": 1009,
+    "next": 1010,
+    "prev": 1008,
     "first_root": 2162
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1010,
-    "number": 1010,
+    "next": 1011,
+    "prev": 1009,
     "first_root": 2165
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1011,
-    "number": 1011,
+    "next": 1012,
+    "prev": 1010,
     "first_root": 2167
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1012,
-    "number": 1012,
+    "next": 1013,
+    "prev": 1011,
     "first_root": 2167
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1013,
-    "number": 1013,
+    "next": 1014,
+    "prev": 1012,
     "first_root": 2171
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1014,
-    "number": 1014,
+    "next": 1015,
+    "prev": 1013,
     "first_root": 2173
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1015,
-    "number": 1015,
+    "next": 1016,
+    "prev": 1014,
     "first_root": 2173
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1016,
-    "number": 1016,
+    "next": 1017,
+    "prev": 1015,
     "first_root": 2176
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1017,
-    "number": 1017,
+    "next": 1018,
+    "prev": 1016,
     "first_root": 2179
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1018,
-    "number": 1018,
+    "next": 1019,
+    "prev": 1017,
     "first_root": 2180
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1019,
-    "number": 1019,
+    "next": 1020,
+    "prev": 1018,
     "first_root": 2180
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1020,
-    "number": 1020,
+    "next": 1021,
+    "prev": 1019,
     "first_root": 2184
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1021,
-    "number": 1021,
+    "next": 1022,
+    "prev": 1020,
     "first_root": 2186
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1022,
-    "number": 1022,
+    "next": 1023,
+    "prev": 1021,
     "first_root": 2187
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1023,
-    "number": 1023,
+    "next": 1024,
+    "prev": 1022,
     "first_root": 2187
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1024,
-    "number": 1024,
+    "next": 1025,
+    "prev": 1023,
     "first_root": 2187
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1025,
-    "number": 1025,
+    "next": 1026,
+    "prev": 1024,
     "first_root": 2189
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1026,
-    "number": 1026,
+    "next": 1027,
+    "prev": 1025,
     "first_root": 2189
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1027,
-    "number": 1027,
+    "next": 1028,
+    "prev": 1026,
     "first_root": 2190
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1028,
-    "number": 1028,
+    "next": 1029,
+    "prev": 1027,
     "first_root": 2190
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1029,
-    "number": 1029,
+    "next": 1030,
+    "prev": 1028,
     "first_root": 2193
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1030,
-    "number": 1030,
+    "next": 1031,
+    "prev": 1029,
     "first_root": 2195
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1031,
-    "number": 1031,
+    "next": 1032,
+    "prev": 1030,
     "first_root": 2196
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1032,
-    "number": 1032,
+    "next": 1033,
+    "prev": 1031,
     "first_root": 2197
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1033,
-    "number": 1033,
+    "next": 1034,
+    "prev": 1032,
     "first_root": 2198
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1034,
-    "number": 1034,
+    "next": 1035,
+    "prev": 1033,
     "first_root": 2198
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1035,
-    "number": 1035,
+    "next": 1036,
+    "prev": 1034,
     "first_root": 2198
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1036,
-    "number": 1036,
+    "next": 1037,
+    "prev": 1035,
     "first_root": 2200
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1037,
-    "number": 1037,
+    "next": 1038,
+    "prev": 1036,
     "first_root": 2200
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1038,
-    "number": 1038,
+    "next": 1039,
+    "prev": 1037,
     "first_root": 2202
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1039,
-    "number": 1039,
+    "next": 1040,
+    "prev": 1038,
     "first_root": 2205
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1040,
-    "number": 1040,
+    "next": 1041,
+    "prev": 1039,
     "first_root": 2207
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1041,
-    "number": 1041,
+    "next": 1042,
+    "prev": 1040,
     "first_root": 2208
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1042,
-    "number": 1042,
+    "next": 1043,
+    "prev": 1041,
     "first_root": 2212
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1043,
-    "number": 1043,
+    "next": 1044,
+    "prev": 1042,
     "first_root": 2218
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1044,
-    "number": 1044,
+    "next": 1045,
+    "prev": 1043,
     "first_root": 2221
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1045,
-    "number": 1045,
+    "next": 1046,
+    "prev": 1044,
     "first_root": 2224
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1046,
-    "number": 1046,
+    "next": 1047,
+    "prev": 1045,
     "first_root": 2226
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1047,
-    "number": 1047,
+    "next": 1048,
+    "prev": 1046,
     "first_root": 2227
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1048,
-    "number": 1048,
+    "next": 1049,
+    "prev": 1047,
     "first_root": 2227
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1049,
-    "number": 1049,
+    "next": 1050,
+    "prev": 1048,
     "first_root": 2228
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1050,
-    "number": 1050,
+    "next": 1051,
+    "prev": 1049,
     "first_root": 2230
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1051,
-    "number": 1051,
+    "next": 1052,
+    "prev": 1050,
     "first_root": 2233
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1052,
-    "number": 1052,
+    "next": 1053,
+    "prev": 1051,
     "first_root": 2236
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1053,
-    "number": 1053,
+    "next": 1054,
+    "prev": 1052,
     "first_root": 2237
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1054,
-    "number": 1054,
+    "next": 1055,
+    "prev": 1053,
     "first_root": 2241
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1055,
-    "number": 1055,
+    "next": 1056,
+    "prev": 1054,
     "first_root": 2244
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1056,
-    "number": 1056,
+    "next": 1057,
+    "prev": 1055,
     "first_root": 2250
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1057,
-    "number": 1057,
+    "next": 1058,
+    "prev": 1056,
     "first_root": 2252
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1058,
-    "number": 1058,
+    "next": 1059,
+    "prev": 1057,
     "first_root": 2254
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1059,
-    "number": 1059,
+    "next": 1060,
+    "prev": 1058,
     "first_root": 2257
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1060,
-    "number": 1060,
+    "next": 1061,
+    "prev": 1059,
     "first_root": 2265
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1061,
-    "number": 1061,
+    "next": 1062,
+    "prev": 1060,
     "first_root": 2267
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1062,
-    "number": 1062,
+    "next": 1063,
+    "prev": 1061,
     "first_root": 2269
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1063,
-    "number": 1063,
+    "next": 1064,
+    "prev": 1062,
     "first_root": 2271
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1064,
-    "number": 1064,
+    "next": 1065,
+    "prev": 1063,
     "first_root": 2274
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1065,
-    "number": 1065,
+    "next": 1066,
+    "prev": 1064,
     "first_root": 2275
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1066,
-    "number": 1066,
+    "next": 1067,
+    "prev": 1065,
     "first_root": 2275
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1067,
-    "number": 1067,
+    "next": 1068,
+    "prev": 1066,
     "first_root": 2280
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1068,
-    "number": 1068,
+    "next": 1069,
+    "prev": 1067,
     "first_root": 2284
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1069,
-    "number": 1069,
+    "next": 1070,
+    "prev": 1068,
     "first_root": 2286
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1070,
-    "number": 1070,
+    "next": 1071,
+    "prev": 1069,
     "first_root": 2287
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1071,
-    "number": 1071,
+    "next": 1072,
+    "prev": 1070,
     "first_root": 2289
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1072,
-    "number": 1072,
+    "next": 1073,
+    "prev": 1071,
     "first_root": 2294
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1073,
-    "number": 1073,
+    "next": 1074,
+    "prev": 1072,
     "first_root": 2296
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1074,
-    "number": 1074,
+    "next": 1075,
+    "prev": 1073,
     "first_root": 2301
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1075,
-    "number": 1075,
+    "next": 1076,
+    "prev": 1074,
     "first_root": 2304
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1076,
-    "number": 1076,
+    "next": 1077,
+    "prev": 1075,
     "first_root": 2304
   },
   {
     "type": "page",
+    "section": "hebrew",
     "id": 1077,
-    "number": 1077,
+    "next": 1078,
+    "prev": 1076,
     "first_root": 2304
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1078,
-    "number": 1078,
+    "next": 1079,
+    "prev": 1077,
     "first_root": 2307
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1079,
-    "number": 1079,
+    "next": 1080,
+    "prev": 1078,
     "first_root": 2315
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1080,
-    "number": 1080,
+    "next": 1081,
+    "prev": 1079,
     "first_root": 2322
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1081,
-    "number": 1081,
+    "next": 1082,
+    "prev": 1080,
     "first_root": 2331
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1082,
-    "number": 1082,
+    "next": 1083,
+    "prev": 1081,
     "first_root": 2339
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1083,
-    "number": 1083,
+    "next": 1084,
+    "prev": 1082,
     "first_root": 2342
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1084,
-    "number": 1084,
+    "next": 1085,
+    "prev": 1083,
     "first_root": 2351
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1085,
-    "number": 1085,
+    "next": 1086,
+    "prev": 1084,
     "first_root": 2358
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1086,
-    "number": 1086,
+    "next": 1087,
+    "prev": 1085,
     "first_root": 2365
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1087,
-    "number": 1087,
+    "next": 1088,
+    "prev": 1086,
     "first_root": 2371
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1088,
-    "number": 1088,
+    "next": 1089,
+    "prev": 1087,
     "first_root": 2377
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1089,
-    "number": 1089,
+    "next": 1090,
+    "prev": 1088,
     "first_root": 2384
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1090,
-    "number": 1090,
+    "next": 1091,
+    "prev": 1089,
     "first_root": 2390
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1091,
-    "number": 1091,
+    "next": 1092,
+    "prev": 1090,
     "first_root": 2400
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1092,
-    "number": 1092,
+    "next": 1093,
+    "prev": 1091,
     "first_root": 2407
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1093,
-    "number": 1093,
+    "next": 1094,
+    "prev": 1092,
     "first_root": 2416
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1094,
-    "number": 1094,
+    "next": 1095,
+    "prev": 1093,
     "first_root": 2423
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1095,
-    "number": 1095,
+    "next": 1096,
+    "prev": 1094,
     "first_root": 2431
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1096,
-    "number": 1096,
+    "next": 1097,
+    "prev": 1095,
     "first_root": 2439
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1097,
-    "number": 1097,
+    "next": 1098,
+    "prev": 1096,
     "first_root": 2444
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1098,
-    "number": 1098,
+    "next": 1099,
+    "prev": 1097,
     "first_root": 2451
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1099,
-    "number": 1099,
+    "next": 1100,
+    "prev": 1098,
     "first_root": 2455
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1100,
-    "number": 1100,
+    "next": 1101,
+    "prev": 1099,
     "first_root": 2463
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1101,
-    "number": 1101,
+    "next": 1102,
+    "prev": 1100,
     "first_root": 2466
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1102,
-    "number": 1102,
+    "next": 1103,
+    "prev": 1101,
     "first_root": 2474
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1103,
-    "number": 1103,
+    "next": 1104,
+    "prev": 1102,
     "first_root": 2484
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1104,
-    "number": 1104,
+    "next": 1105,
+    "prev": 1103,
     "first_root": 2492
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1105,
-    "number": 1105,
+    "next": 1106,
+    "prev": 1104,
     "first_root": 2496
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1106,
-    "number": 1106,
+    "next": 1107,
+    "prev": 1105,
     "first_root": 2498
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1107,
-    "number": 1107,
+    "next": 1108,
+    "prev": 1106,
     "first_root": 2506
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1108,
-    "number": 1108,
+    "next": 1109,
+    "prev": 1107,
     "first_root": 2513
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1109,
-    "number": 1109,
+    "next": 1110,
+    "prev": 1108,
     "first_root": 2522
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1110,
-    "number": 1110,
+    "next": 1111,
+    "prev": 1109,
     "first_root": 2526
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1111,
-    "number": 1111,
+    "next": 1112,
+    "prev": 1110,
     "first_root": 2533
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1112,
-    "number": 1112,
+    "next": 1113,
+    "prev": 1111,
     "first_root": 2541
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1113,
-    "number": 1113,
+    "next": 1114,
+    "prev": 1112,
     "first_root": 2550
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1114,
-    "number": 1114,
+    "next": 1115,
+    "prev": 1113,
     "first_root": 2564
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1115,
-    "number": 1115,
+    "next": 1116,
+    "prev": 1114,
     "first_root": 2573
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1116,
-    "number": 1116,
+    "next": 1117,
+    "prev": 1115,
     "first_root": 2580
   },
   {
     "type": "page",
+    "section": "aramaic",
     "id": 1117,
-    "number": 1117,
+    "next": 1118,
+    "prev": 1116,
     "first_root": 2590
+  },
+  {
+    "type": "page",
+    "id": 1119,
+    "section": "errata",
+    "next": 1120,
+    "prev": 1118
+  },
+  {
+    "type": "page",
+    "id": 1120,
+    "section": "errata",
+    "next": 1121,
+    "prev": 1119
+  },
+  {
+    "type": "page",
+    "id": 1121,
+    "section": "errata",
+    "next": 1122,
+    "prev": 1120
+  },
+  {
+    "type": "page",
+    "id": 1122,
+    "section": "errata",
+    "next": 1123,
+    "prev": 1121
+  },
+  {
+    "type": "page",
+    "id": 1123,
+    "section": "errata",
+    "next": 1124,
+    "prev": 1122
+  },
+  {
+    "type": "page",
+    "id": 1124,
+    "section": "errata",
+    "next": 1125,
+    "prev": 1123
+  },
+  {
+    "type": "page",
+    "id": 1125,
+    "section": "errata",
+    "next": 1126,
+    "prev": 1124
+  },
+  {
+    "type": "page",
+    "id": 1126,
+    "section": "errata",
+    "next": 1127,
+    "prev": 1125
+  },
+  {
+    "type": "page",
+    "id": 1127,
+    "section": "errata",
+    "next": false,
+    "prev": 1126
   }
 ]

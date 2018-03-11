@@ -5,12 +5,13 @@
   "main": "build.js",
   "repository": "git@github.com:jackweinbender/bdb-site.git",
   "author": "Jack Weinbender <jack.weinbender@gmail.com>",
-  "license": "GPL-3.0-or-later",
+  "license": "GPL-3.0",
   "scripts": {
-    "start": "yarn run clean && yarn run build",
-    "setup": "mkdir dist && mkdir dist/page",
-    "build": "yarn run setup && node build.js",
+    "start": "yarn run clean && yarn run build && yarn run serve",
+    "setup": "mkdir dist",
+    "build": "yarn run clean && yarn run setup && yarn run assets && node build.js",
     "clean": "rm -rf dist",
+    "assets": "cp -r assets dist/assets",
     "serve": "php -S localhost:8000 -t dist/"
   },
   "dependencies": {
