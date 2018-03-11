@@ -3,7 +3,7 @@
     "id": "title",
     "section": "title",
     "next": "/preface/v/",
-    "prev": false
+    "prev": "/"
   },
   {
     "id": "v",
@@ -7971,7 +7971,7 @@
   {
     "id": 1127,
     "section": "errata",
-    "next": false,
+    "next": "/",
     "prev": "/errata/1126/"
   }
 ]
