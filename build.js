@@ -25,6 +25,7 @@ hbs.registerPartial('nav', nav_compiled)
 let template = hbs.compile(index)
 
 // Write out Each Page to its Section
+fs.mkdirSync('dist/api/')
 pages.forEach(page => {
     let data = { page: page, letters: letters, roots: roots }
     let output = template(data)
@@ -32,8 +33,10 @@ pages.forEach(page => {
     // Write title to the root index
     if(page.section == 'title'){
         fs.writeFileSync(`dist/index.html`, output)
+        fs.writeFileSync(`dist/api/index.json`, JSON.stringify(page))
     } else {
         fs.writeFileSync(`dist/${page.section}-${page.id}.html`, output)
+        fs.writeFileSync(`dist/api/${page.section}-${page.id}.json`, JSON.stringify(page))
     }
 })
 
